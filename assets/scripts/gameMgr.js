@@ -56,7 +56,10 @@ cc.Class({
 
     },
 
-    // update (dt) {},
+    update (dt) {
+        //check whether the catchfish node is in one fish node
+        
+    },
     onDestroy(){
         this.closeTouchEvent();
     },
@@ -100,23 +103,18 @@ cc.Class({
     }, 
 
     startRefreshFishes(){
-        // for (var index in self.dataCenter.neededFishesData) {
-        //     // cc.log("fishData is " + self.dataCenter.neededFishesData[index]);
-        //     cc.log("sdfasdfasdfsda");
-        //     var fishData = self.dataCenter.neededFishesData[index];
-        //     self.schedule(function(){
-        //         self.refreshOneFishByFishData(fishData);
-        //     },fishData.timeDelta);
-        // }
-        var fishData = this.dataCenter.neededFishesData[0];
-        this.schedule(function(){
-            this.refreshOneFishByFishData(fishData);
-        },fishData.timeDelta);
+
+        var self = this;
+        for(var element in this.dataCenter.neededFishesData) {
+            var fishData = this.dataCenter.neededFishesData[element];
+            setInterval(function(){
+                self.refreshOneFishByFishData(fishData);
+            },fishData.timeDelta);
+        }
     },
 
     refreshOneFishByFishData(fishData) {
         var probability = fishData.probability;
-        cc.log("now probability is " + probability + fishData.timeDelta);
         var helper = require("helper");
         if(helper.isHittedByProbability(probability,10000) == false) {
             return
@@ -171,7 +169,7 @@ cc.Class({
     getOneRandomPositionBySpawnArea(spawnAreaNum,newFish,givenNode){
         var spawnX = null;
         var spawnY = null;
-        //var newFish = cc.instantiate(this.fishPrefab);
+
         if(spawnAreaNum == 0) {
              spawnX = -1 * givenNode.width/2 - newFish.width/2;
              spawnY = Math.random() * givenNode.height - givenNode.height/2;
