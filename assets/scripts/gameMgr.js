@@ -40,7 +40,10 @@ cc.Class({
             default: null,
             visible: false
         },
-        moveDuration: 5
+        moveDuration: 5,
+        catchedFishAnimTime:0.5,
+
+        dollorLabel: cc.Label
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -50,6 +53,7 @@ cc.Class({
         this.catchFishNodeOriginPosition = this.catchFishNode.getPosition();
         this.openTouchEvent();
         this.startRefreshFishes();
+        this.updateDollorLabelStr();
     },
 
     start () {
@@ -58,7 +62,45 @@ cc.Class({
 
     update (dt) {
         //check whether the catchfish node is in one fish node
-        
+        var fishesOnScreen = this.fishesNode.children;
+        var helper = require("helper");
+        for (var index in fishesOnScreen) {
+            var oneFishOnScreen = fishesOnScreen[index];
+            if (helper.isOneNodeInAnotherNode(this.catchFishNode,oneFishOnScreen) == true) {
+                var fishMgr = oneFishOnScreen.getComponent("fishMgr");
+                var fishData = fishMgr.fishData;
+                var fishPosition = oneFishOnScreen.getPosition();
+
+                //add dollor
+                this.dataCenter.playerData.currentDollor += fishData.currentDollor;
+                this.updateDollorLabelStr();
+                //remove the fish
+                oneFishOnScreen.removeFromParent();
+                //one new fish for animation of catched fish
+                var self = this;
+                cc.loader.loadRes(fishData.fishModelName,function(err,catchedFishPrefab){
+                    if(err){
+                        return
+                    }
+                    var catchedFish = cc.instantiate(catchedFishPrefab); 
+                    catchedFish.position = fishPosition;
+                    
+                    var catchedFishTargetPosition = cc.v2(0,-151);
+                    var jumpAction = cc.jumpTo(self.catchedFishAnimTime,catchedFishTargetPosition,50,1);
+                    var scalUpAction = cc.scaleTo(0.3 * self.catchedFishAnimTime,1.5,1.5);
+                    var scalDownAction = cc.scaleTo(0.7 * self.catchedFishAnimTime,0.5,0.5);
+                    var scalAction = cc.sequence(scalUpAction,scalDownAction,cc.removeSelf());
+                    var catchedFishAction = cc.spawn(jumpAction,scalAction);
+                    
+
+                    helper.turnOneNodeToOnePosition(catchedFish,catchedFishTargetPosition);
+                    self.gotFishesNode.addChild(catchedFish);
+                    catchedFish.runAction(catchedFishAction);
+
+                    
+                })
+            }
+        }
     },
     onDestroy(){
         this.closeTouchEvent();
@@ -107,9 +149,13 @@ cc.Class({
         var self = this;
         for(var element in this.dataCenter.neededFishesData) {
             var fishData = this.dataCenter.neededFishesData[element];
-            setInterval(function(){
-                self.refreshOneFishByFishData(fishData);
-            },fishData.timeDelta);
+
+            var tempFunc = function(para){
+                setInterval(function(){
+                    self.refreshOneFishByFishData(para);
+                },(para.timeDelta * 1000 ));
+            };
+            tempFunc(fishData);    
         }
     },
 
@@ -188,4 +234,11 @@ cc.Class({
         }
         return cc.v2(spawnX,spawnY);
     },
+    updateDollorLabelStr(){
+        var helper = require("helper");
+        var currentDollor = this.dataCenter.playerData.currentDollor;
+        var strForLabel = helper.formatNumberShowStyle(currentDollor);
+        strForLabel = "$ " + strForLabel;
+        this.dollorLabel.string = strForLabel;
+    }
 });
