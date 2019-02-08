@@ -10,19 +10,17 @@
 
 var networkingMgr = {
     ipAddr:"127.0.0.1",
-    port:9999,
-    protocalConfig: {
-        actions: {
-            getInitData: "GID",
-            updatePlayerData: "UPD"
-        }
+    port:8000,
+    requestType: {
+        getInitData: "GID",
+        updatePlayerData: "UPD"
     },
 
     sendMessageToServer(message,successCallBack,responseType = "text",errCallBack = function(){
 
     }){
         var xhr = new XMLHttpRequest();
-        xhr.responseType = responseType;
+        
         xhr.onreadystatechange = function(){
             if(xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
                 //success
@@ -32,15 +30,43 @@ var networkingMgr = {
                 errCallBack(xhr);
             }
         }
-        var url = this.ipAddr + ":" + String(this.port);
+        var url = "http://" + this.ipAddr + ":" + String(this.port);
         xhr.open("POST",url,true);
+        xhr.responseType = responseType;
         xhr.send(message);
     },
     updatePlayerDataToServer(){
         var dataCenter = require("dataCenter");
         var playerData = dataCenter.playerData;
-        
+        var requestInfo = this.requestType.updatePlayerData + "\r\n" + dataCenter.playerData.id;
+        var sendMessage = requestInfo + "\r\n\r\n" + JSON.stringify(playerData)
+        this.sendMessageToServer(sendMessage,function(xhr){
+            // cc.log(xhr.responseText);
+        });
     },
+    // getInitDataFromServer(callBack, parameters = []){
+    //     var dataCenter = require("dataCenter");
+    //     var requestInfo = this.requestType.getInitData + "\r\n" + "10001";
+    //     var sendMessage = requestInfo + "\r\n\r\n"
+    //     this.sendMessageToServer(sendMessage,function(xhr){
+    //         //setup datacenter
+    //         dataCenter.playerData = xhr.response.playerData;
+    //         dataCenter.neededFishesData = xhr.response.neededFishesData;
+    //         callBack(parameters);
+    //     },"json")
+    // }
+    getInitDataFromServer(callBack, parameters = []){
+        var dataCenter = require("dataCenter");
+        var requestInfo = this.requestType.getInitData + "\r\n" + "10001";
+        var sendMessage = requestInfo + "\r\n\r\n"
+        this.sendMessageToServer(sendMessage,function(xhr){
+            //setup datacenter
+            var jsonObj = JSON.parse(xhr.responseText);
+            dataCenter.playerData = jsonObj.playerData;
+            dataCenter.neededFishesData = jsonObj.neededFishesData;
+            callBack(parameters);
+        })
+    }
     
 }
 

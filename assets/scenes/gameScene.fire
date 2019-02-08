@@ -41,9 +41,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.2716896479611578,
-      "y": 0.2716896479611578,
-      "z": 0.2716896479611578
+      "x": 0.25419921875,
+      "y": 0.25419921875,
+      "z": 0.25419921875
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -203,10 +203,10 @@
     "_clearFlags": 7,
     "_backgroundColor": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
-      "a": 255
+      "r": 74,
+      "g": 144,
+      "b": 226,
+      "a": 73
     },
     "_depth": -1,
     "_zoomRatio": 1,
@@ -969,7 +969,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 146.74,
+      "width": 110,
       "height": 40
     },
     "_anchorPoint": {
@@ -1026,7 +1026,7 @@
     "_spacingX": 0,
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
-    "_N$fontFamily": "Arial Black",
+    "_N$fontFamily": "Arial Black Regular",
     "_N$overflow": 0,
     "_id": "32rPRj7I9JfZ1UqZfM/tc6"
   },
@@ -1065,12 +1065,14 @@
     "gotFishesNode": {
       "__id__": 14
     },
-    "catchFishNodeOriginPosition": null,
-    "moveDuration": 5,
-    "catchedFishAnimTime": 0.5,
     "dollorLabel": {
       "__id__": 20
     },
+    "catchFishNodeOriginPosition": null,
+    "moveDuration": 5,
+    "catchedFishAnimTime": 0.5,
+    "addDollorLabelAnimTime": 0.5,
+    "addDollorLabelAnimMoveUpDistance": 50,
     "_id": "5azDSDPohKu5kwKjWng+cm"
   }
 ]

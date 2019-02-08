@@ -27,10 +27,6 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
-        dataCenter: {
-            default: null,
-            visible: false
-        },
         waitingTime: {
             default: 0,
             visible: false
@@ -44,9 +40,9 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        this.dataCenter = require("dataCenter");
-        //setup dataCenter
-        this.setupDataCenterFromServer(this.dataCenter,this.changeToScene,this.waitingTime,this.minumWatingTime);
+        
+        var networkMgr = require("networkingMgr");
+        networkMgr.getInitDataFromServer(this.changeToScene,[this.waitingTime,this.minumWatingTime]);
     },
 
     start () {
@@ -57,21 +53,8 @@ cc.Class({
         this.waitingTime += dt;
     },
 
-    setupDataCenterFromServer(dataCenter,callBack,waitingTime,minumWatingTime){
-        var xhr = new XMLHttpRequest();
-        xhr.responseType = "json";
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
-                var response = xhr.response;
-                dataCenter.playerData = response.playerData;
-                dataCenter.neededFishesData = response.neededFishesData;
-                callBack(waitingTime,minumWatingTime);
-            }
-        }
-        xhr.open("POST","http://127.0.0.1:8000",true);
-        xhr.send("request init data")
-    },
-    changeToScene(waitingTime,minumWatingTime){
+    
+    changeToScene([waitingTime,minumWatingTime]){
         var timeDelta = waitingTime - minumWatingTime;
         if (timeDelta < 0) {
             timeDelta = timeDelta * -1;

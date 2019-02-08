@@ -35,6 +35,7 @@ cc.Class({
         fishesNode: cc.Node,
         catchFishNode: cc.Node,
         gotFishesNode: cc.Node,
+        dollorLabel: cc.Label,
 
         catchFishNodeOriginPosition: {
             default: null,
@@ -42,8 +43,9 @@ cc.Class({
         },
         moveDuration: 5,
         catchedFishAnimTime:0.5,
-
-        dollorLabel: cc.Label
+        addDollorLabelAnimTime: 0.5,
+        addDollorLabelAnimMoveUpDistance: 50
+        
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -74,6 +76,8 @@ cc.Class({
                 //add dollor
                 this.dataCenter.playerData.currentDollor += fishData.currentDollor;
                 this.updateDollorLabelStr();
+                var networkingMgr = require("networkingMgr");
+                networkingMgr.updatePlayerDataToServer();
                 //remove the fish
                 oneFishOnScreen.removeFromParent();
                 //one new fish for animation of catched fish
@@ -97,6 +101,19 @@ cc.Class({
                     self.gotFishesNode.addChild(catchedFish);
                     catchedFish.runAction(catchedFishAction);
 
+                    cc.loader.loadRes("addDollorLabel",function(err,addDollorLabelPrefab){
+                        var addDollorLabelNode = cc.instantiate(addDollorLabelPrefab);
+                        var addDollorLabel = addDollorLabelNode.getComponent(cc.Label);
+                        addDollorLabel.string = "+ $ " + fishData.currentDollor.toString();
+                        addDollorLabelNode.position = catchedFish.position;
+                        self.gotFishesNode.addChild(addDollorLabelNode);
+
+                        var fadeAction = cc.fadeOut(self.addDollorLabelAnimTime);
+                        var labelAction = cc.sequence(fadeAction,cc.removeSelf());
+                        var upAction = cc.moveBy(self.addDollorLabelAnimTime,cc.v2(0,self.addDollorLabelAnimMoveUpDistance));
+                        var finalAction = cc.spawn(labelAction,upAction)
+                        addDollorLabelNode.runAction(finalAction);
+                    });
                     
                 })
             }
