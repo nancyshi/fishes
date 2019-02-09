@@ -41,20 +41,10 @@ var networkingMgr = {
         var requestInfo = this.requestType.updatePlayerData + "\r\n" + dataCenter.playerData.id;
         var sendMessage = requestInfo + "\r\n\r\n" + JSON.stringify(playerData)
         this.sendMessageToServer(sendMessage,function(xhr){
-            // cc.log(xhr.responseText);
+            cc.log(xhr.responseText);
         });
     },
-    // getInitDataFromServer(callBack, parameters = []){
-    //     var dataCenter = require("dataCenter");
-    //     var requestInfo = this.requestType.getInitData + "\r\n" + "10001";
-    //     var sendMessage = requestInfo + "\r\n\r\n"
-    //     this.sendMessageToServer(sendMessage,function(xhr){
-    //         //setup datacenter
-    //         dataCenter.playerData = xhr.response.playerData;
-    //         dataCenter.neededFishesData = xhr.response.neededFishesData;
-    //         callBack(parameters);
-    //     },"json")
-    // }
+
     getInitDataFromServer(callBack, parameters = []){
         var dataCenter = require("dataCenter");
         var requestInfo = this.requestType.getInitData + "\r\n" + "10001";

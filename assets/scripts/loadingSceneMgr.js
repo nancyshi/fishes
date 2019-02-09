@@ -43,6 +43,7 @@ cc.Class({
         
         var networkMgr = require("networkingMgr");
         networkMgr.getInitDataFromServer(this.changeToScene,[this.waitingTime,this.minumWatingTime]);
+        
     },
 
     start () {
