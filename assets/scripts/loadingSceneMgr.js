@@ -34,16 +34,26 @@ cc.Class({
         minumWatingTime: {
             default: 3,
             tooltip: "calculated by seconds"
-        }
+        },
+
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
         
-        var networkMgr = require("networkingMgr");
-        networkMgr.getInitDataFromServer(this.changeToScene,[this.waitingTime,this.minumWatingTime]);
+        // var networkMgr = require("networkingMgr");
+        // var signMgr = require("signMgr");
+        // signMgr.logInToServer();
+        // networkMgr.getInitDataFromServer(this.changeToScene,[this.waitingTime,this.minumWatingTime]);
         
+        var loginSys = require("loginSys");
+        loginSys.loginToServer(this.loginSuccessCallBack,this);
+        
+    },
+    loginSuccessCallBack(paras) {
+        var playerDataSys = require("playerDataSys");
+        playerDataSys.initPlayerData(paras.changeToScene,[paras.waitingTime,paras.minumWatingTime]);
     },
 
     start () {
