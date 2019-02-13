@@ -17,16 +17,17 @@ var loginSys = {
         var ip = ipconfig.ip;
         var port = ipconfig.ports.playerLoginService;
 
-        var requestType = networkMgr.requestType.json.login;
 
-        var url = "http://" + ip + ":" + port;
-        
+        var url = "http://" + ip + ":" + port + "/";
         if (cc.sys.platform == cc.sys.WECHAT_GAME) {
             wx.login({
                 success(res){
                     var code = res.code;
                     if (code) {
-                        var message = requestType + "\r\n" + code + "\r\n\r\n"
+                        var message = {
+                            token: code
+                        }
+                        message = JSON.stringify(message);
                         networkMgr.sendMessageToServer(port,url,message,this.loginSucess,function(){},[successCallBack,paras]);
                     }
                     else {
@@ -36,7 +37,10 @@ var loginSys = {
             })
         }
         else {
-            var message = requestType + "\r\n" + "houwan&12313" + "\r\n\r\n"
+            var message = {
+                token: "houwan&12313"
+            }
+            message = JSON.stringify(message)
             networkMgr.sendMessageToServer(port,url,message,this.loginSucess,function(){},[successCallBack,paras]);
         }
         

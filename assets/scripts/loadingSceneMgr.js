@@ -42,10 +42,6 @@ cc.Class({
 
     onLoad () {
         
-        // var networkMgr = require("networkingMgr");
-        // var signMgr = require("signMgr");
-        // signMgr.logInToServer();
-        // networkMgr.getInitDataFromServer(this.changeToScene,[this.waitingTime,this.minumWatingTime]);
         
         var loginSys = require("loginSys");
         loginSys.loginToServer(this.loginSuccessCallBack,this);

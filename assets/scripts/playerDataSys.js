@@ -16,18 +16,20 @@ var playerDataSys = {
         var ipconfig = networkMgr.ipconfig.json;
         var ip = ipconfig.ip;
         var ports = ipconfig.ports;
-        var port = ports.playerDataService;
+        var port = ports.playerLoginService;
 
-        var url = "http://" + ip + ":" + port;
-        var requestType = networkMgr.requestType.json.initPlayerData;
+        var url = "http://" + ip + ":" + port + "/getinitdata";
         var dataCenter = require("dataCenter");
-        var playerId = dataCenter.playerData.id;
-        if (!playerId) {
+        var playerId1 = dataCenter.playerData.id;
+        if (!playerId1) {
             console.log("init player data erro: there isn't a playerID");
             return
         }
 
-        var message = requestType + "\r\n" + String(playerId) + "\r\n\r\n";
+        var message = {
+            playerId: dataCenter.playerData.id
+        }
+        message = JSON.stringify(message);
         // networkMgr.sendMessageToServer(port,url,message,this.initPlayerDataGetResponseCallBack,others = [successCallBack]);
         networkMgr.sendMessageToServer(port,url,message,this.initPlayerDataGetResponseCallBack,function(){},[successCallBack,paras]);
     },
@@ -49,9 +51,9 @@ var playerDataSys = {
         var ipconfig = networkMgr.ipconfig.json;
         var ip = ipconfig.ip;
         var ports = ipconfig.ports;
-        var port = ports.playerDataService;
+        var port = ports.playerLoginService;
 
-        var url = "http://" + ip + ":" + port;
+        var url = "http://" + ip + ":" + port + "updateplayerdata";
         var requestType = networkMgr.requestType.json.updatePlayerData;
         var dataCenter = require("dataCenter");
         var playerId = dataCenter.playerData.id;
@@ -59,8 +61,11 @@ var playerDataSys = {
             console.log("update player data erro: there isn't a playerID");
             return
         }
-        var requestBody = JSON.stringify(dataCenter.playerData);
-        var message = requestType + "\r\n" + String(playerId) + "\r\n\r\n" + requestBody;
+        
+        var message = {
+            datasForChange: dataCenter.playerData
+        }
+        message = JSON.stringify(message);
         networkMgr.sendMessageToServer(port,url,message,this.updatePlayerDataSuccessCallBack);
     },
     updatePlayerDataSuccessCallBack(xhr,others) {
