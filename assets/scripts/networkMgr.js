@@ -33,22 +33,13 @@ cc.Class({
     },
     sendMessageToServer(port,url,message,successCallBack,erroCallBack = function(){},others = []) {
         var xhr = new XMLHttpRequest()
-        xhr.onreadystatechange = function() {
-
-            if (xhr.status == 0) {
-                // connection failed
+        xhr.onerror = function() {
+            erroCallBack();
+        }
+        xhr.onload = function(){
+            if (xhr.status == 200) {
+                successCallBack(xhr,others);
             }
-            
-            if (xhr.readyState == 4 && (xhr.status >= 200 && xhr.status < 400)) {
-                //response success , due to cooperation problems of wechat game and cocos creator , response type will
-                //just be set to "text"
-                successCallBack(xhr,others)
-            }
-            else if (xhr.readyState == 4 && (xhr.status < 200 || xhr.status >= 400)){
-                erroCallBack(xhr)
-                cc.log("connection erro");
-            }
-            
         }
         xhr.open("POST",url,true);
         xhr.send(message);
