@@ -15,7 +15,7 @@ var loginSys = {
         var networkMgr = networkMgrNode.getComponent("networkMgr");
         var ipconfig = networkMgr.ipconfig.json;
         var ip = ipconfig.ip;
-        var port = ipconfig.ports.playerLoginService;
+        var port = ipconfig.port;
 
 
         var url = "http://" + ip + ":" + port + "/";

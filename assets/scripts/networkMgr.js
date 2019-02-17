@@ -20,7 +20,8 @@ cc.Class({
         requestType: {
             default: null,
             type: cc.JsonAsset
-        }
+        },
+        heartCheckTimeGap: 3
     },
 
 
@@ -43,7 +44,15 @@ cc.Class({
         }
         xhr.open("POST",url,true);
         xhr.send(message);
-    }
+    },
+    checkHeart() {
+        var ip = this.ipconfig.json.ip;
+        var port = this.ipconfig.json.port;
 
+        var url = "http://" + ip + ":" + port + "/heart";
+
+        var xhr = new XMLHttpRequest();
+        
+    }
 });
 

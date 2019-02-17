@@ -15,8 +15,7 @@ var playerDataSys = {
         var networkMgr = networkMgrNode.getComponent("networkMgr");
         var ipconfig = networkMgr.ipconfig.json;
         var ip = ipconfig.ip;
-        var ports = ipconfig.ports;
-        var port = ports.playerLoginService;
+        var port = ipconfig.port;
 
         var url = "http://" + ip + ":" + port + "/getinitdata";
         var dataCenter = require("dataCenter");
@@ -50,8 +49,7 @@ var playerDataSys = {
         var networkMgr = networkMgrNode.getComponent("networkMgr");
         var ipconfig = networkMgr.ipconfig.json;
         var ip = ipconfig.ip;
-        var ports = ipconfig.ports;
-        var port = ports.playerLoginService;
+        var port = ipconfig.port;
 
         var url = "http://" + ip + ":" + port + "/updateplayerdata";
         var dataCenter = require("dataCenter");
