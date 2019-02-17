@@ -53,8 +53,7 @@ var playerDataSys = {
         var ports = ipconfig.ports;
         var port = ports.playerLoginService;
 
-        var url = "http://" + ip + ":" + port + "updateplayerdata";
-        var requestType = networkMgr.requestType.json.updatePlayerData;
+        var url = "http://" + ip + ":" + port + "/updateplayerdata";
         var dataCenter = require("dataCenter");
         var playerId = dataCenter.playerData.id;
         if (!playerId) {
