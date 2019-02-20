@@ -21,16 +21,31 @@ cc.Class({
             default: null,
             type: cc.JsonAsset
         },
-        heartCheckTimeGap: 3
+        heartCheckTimeGap: 1,
+        _heartCheckFailTime: 0,
+        maxHeartCheckFailTime: 3,
+        retryLayerPrefab: {
+            default: null,
+            type: cc.Prefab
+        }
     },
 
 
     onLoad () {
         cc.game.addPersistRootNode(this.node);
+        this.startHeartCheck()
     },
 
     start () {
 
+    },
+    update(){
+        if (this._heartCheckFailTime == this.maxHeartCheckFailTime) {
+            this._heartCheckFailTime = 0;
+            this.unschedule(this.checkHeart,this);
+            this.addRetryLayerToScene();
+            
+        }
     },
     sendMessageToServer(port,url,message,successCallBack,erroCallBack = function(){},others = []) {
         var xhr = new XMLHttpRequest()
@@ -49,10 +64,41 @@ cc.Class({
         var ip = this.ipconfig.json.ip;
         var port = this.ipconfig.json.port;
 
-        var url = "http://" + ip + ":" + port + "/heart";
+        var url = "http://" + ip + ":" + port + "/heartcheck";
 
         var xhr = new XMLHttpRequest();
+        var self = this
+        xhr.onload = function() {
+            if (self._heartCheckFailTime !=  0) {
+                self._heartCheckFailTime = 0;
+            }
+        }
+        xhr.onerror = function() {
+            self._heartCheckFailTime += 1
+            
+        }
+        xhr.ontimeout = function() {
+            self._heartCheckFailTime += 1
+        }
+        xhr.open("POST",url,true);
+        xhr.send("heartcheck");
+    },
+    startHeartCheck() {
+        this.schedule(this.checkHeart,this.heartCheckTimeGap);
+    },
+    addRetryLayerToScene(){
+        var canvas = cc.find("Canvas");
+        var retryLayer = cc.instantiate(this.retryLayerPrefab);
+        retryLayer.setPosition(0,0);
+        canvas.addChild(retryLayer);
+        var button = retryLayer.getChildByName("button")
+        button.on("click",this.retryConnect,this);
+        cc.director.pause();
         
+    },
+    retryConnect() {
+        cc.director.loadScene("loadingScene");
+
     }
 });
 

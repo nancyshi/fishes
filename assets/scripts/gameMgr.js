@@ -76,8 +76,6 @@ cc.Class({
                 //add dollor
                 this.dataCenter.playerData.currentDollor += fishData.currentDollor;
                 this.updateDollorLabelStr();
-                // var networkingMgr = require("networkingMgr");
-                // networkingMgr.updatePlayerDataToServer();
 
                 var playerDataSys = require("playerDataSys");
                 playerDataSys.updatePlayerData();

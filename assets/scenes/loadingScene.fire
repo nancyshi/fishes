@@ -44,9 +44,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.25419921875,
-      "y": 0.25419921875,
-      "z": 0.25419921875
+      "x": 0.1,
+      "y": 0.1,
+      "z": 0.1
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -324,6 +324,12 @@
     },
     "requestType": {
       "__uuid__": "0b52d1c3-af6a-4434-92b4-a6e857b856e5"
+    },
+    "heartCheckTimeGap": 3,
+    "_heartCheckFailTime": 0,
+    "maxHeartCheckFailTime": 3,
+    "retryLayerPrefab": {
+      "__uuid__": "10000fe9-77bf-4ad9-862a-d01b692e14e6"
     },
     "_id": "63k/4twg9J/Jvdh/GyscY4"
   }
