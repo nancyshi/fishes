@@ -1,0 +1,11 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "requestType",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "initPlayerData": "GID",
+    "updatePlayerData": "UPD",
+    "login": "LI"
+  }
+}

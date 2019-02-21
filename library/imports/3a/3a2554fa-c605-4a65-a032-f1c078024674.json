@@ -1,0 +1,14 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "ipconfig",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "ip": "127.0.0.1",
+    "ports": {
+      "playerDataService": 8001,
+      "playerLoginService": 8002
+    },
+    "port": 8002
+  }
+}

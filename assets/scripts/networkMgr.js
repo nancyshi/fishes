@@ -33,7 +33,7 @@ cc.Class({
 
     onLoad () {
         cc.game.addPersistRootNode(this.node);
-        this.startHeartCheck()
+        this.startHeartCheck();
     },
 
     start () {
@@ -97,8 +97,10 @@ cc.Class({
         
     },
     retryConnect() {
+        cc.director.resume();
+        var node = cc.find("networkMgrNode");
+        cc.game.removePersistRootNode(node);
         cc.director.loadScene("loadingScene");
-
     }
 });
 
