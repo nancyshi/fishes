@@ -10,54 +10,40 @@
 
 var loginSys = {
 
-    loginToServer(successCallBack,paras = null){
+    login() {
         var networkMgrNode = cc.find("networkMgrNode");
         var networkMgr = networkMgrNode.getComponent("networkMgr");
-        var ipconfig = networkMgr.ipconfig.json;
-        var ip = ipconfig.ip;
-        var port = ipconfig.port;
 
-
-        var url = "http://" + ip + ":" + port + "/";
+        var ws = networkMgr.ws;
         if (cc.sys.platform == cc.sys.WECHAT_GAME) {
             wx.login({
-                success(res){
+                success(res) {
                     var code = res.code;
-                    if (code) {
-                        var message = {
-                            token: code
-                        }
-                        message = JSON.stringify(message);
-                        networkMgr.sendMessageToServer(port,url,message,this.loginSucess,function(){},[successCallBack,paras]);
+                    var message = {
+                        type: "login",
+                        token: code
                     }
-                    else {
-                        console.log("wechat get login code failed");
-                    }
+                    message = JSON.stringify(message);
+                    ws.send(message);
                 }
             })
         }
         else {
             var message = {
-                token: "houwan&12313"
+                type: "login",
+                token: "houwan&1231"
             }
-            message = JSON.stringify(message)
-            networkMgr.sendMessageToServer(port,url,message,this.loginSucess,function(){},[successCallBack,paras]);
+            message = JSON.stringify(message);
+            ws.send(message);
         }
-        
     },
-    loginSucess(xhr,others) {
-        var playerId = xhr.responseText;
-        playerId = Number(playerId);
+
+    onReceiveMessage(data, callBack,target) {
         var dataCenter = require("dataCenter");
-        //dataCenter.playerData.id = playerId;
-        dataCenter.playerData = {
-            id: playerId
-        }
-        var successCallBack = others[0];
-        var paras = others[1];
-        successCallBack(paras);
+        dataCenter.playerData = data.playerData;
+        dataCenter.neededFishesData = data.neededFishesData;
+        callBack.call(target);
     }
-    
 }
 
 module.exports = loginSys;

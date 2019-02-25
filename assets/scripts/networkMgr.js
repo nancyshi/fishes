@@ -21,71 +21,63 @@ cc.Class({
             default: null,
             type: cc.JsonAsset
         },
-        heartCheckTimeGap: 1,
-        _heartCheckFailTime: 0,
-        maxHeartCheckFailTime: 3,
         retryLayerPrefab: {
             default: null,
             type: cc.Prefab
-        }
+        },
+        ws: null
     },
 
 
     onLoad () {
         cc.game.addPersistRootNode(this.node);
-        this.startHeartCheck();
+        var ip = this.ipconfig.json.ip;
+        var port = this.ipconfig.json.port;
+        var url = "ws://" + ip + ":" + port;
+        this.ws = new WebSocket(url);
+
+        var self = this;
+        this.ws.onerror = function(event) {
+            self.addRetryLayerToScene();
+        }
+        this.ws.onopen = function(event) {
+            var loginSys = require("loginSys");
+            loginSys.login();
+        }
+        this.ws.onmessage = function(event) {
+            var content = event.data;
+
+            var messageObj = JSON.parse(content);
+            
+            if (messageObj.type == "login") {
+                var data = JSON.parse(messageObj.data);
+                var loginSys = require("loginSys");
+                var loadingSceneMgr = cc.find("Canvas").getComponent("loadingSceneMgr");
+                loginSys.onReceiveMessage(data,loadingSceneMgr.changeToScene,loadingSceneMgr);
+            }
+            else if (messageObj.type == "catchFish") {
+                var gameMgr = cc.find("Canvas").getComponent("gameMgr");
+                var data = messageObj.currentDollor;
+                gameMgr.onReceiveMessage(data);
+            }
+        }
+        this.ws.onclose = function(event) {
+            self.addRetryLayerToScene();
+        }
     },
 
     start () {
 
     },
     update(){
-        if (this._heartCheckFailTime == this.maxHeartCheckFailTime) {
-            this._heartCheckFailTime = 0;
-            this.unschedule(this.checkHeart,this);
-            this.addRetryLayerToScene();
-            
-        }
-    },
-    sendMessageToServer(port,url,message,successCallBack,erroCallBack = function(){},others = []) {
-        var xhr = new XMLHttpRequest()
-        xhr.onerror = function() {
-            erroCallBack();
-        }
-        xhr.onload = function(){
-            if (xhr.status == 200) {
-                successCallBack(xhr,others);
-            }
-        }
-        xhr.open("POST",url,true);
-        xhr.send(message);
-    },
-    checkHeart() {
-        var ip = this.ipconfig.json.ip;
-        var port = this.ipconfig.json.port;
 
-        var url = "http://" + ip + ":" + port + "/heartcheck";
+    },
+    sendMessageToServer(message) {
+        if (this.ws.readyState == 1) {
+            this.ws.send(message);
+        }
+    },
 
-        var xhr = new XMLHttpRequest();
-        var self = this
-        xhr.onload = function() {
-            if (self._heartCheckFailTime !=  0) {
-                self._heartCheckFailTime = 0;
-            }
-        }
-        xhr.onerror = function() {
-            self._heartCheckFailTime += 1
-            
-        }
-        xhr.ontimeout = function() {
-            self._heartCheckFailTime += 1
-        }
-        xhr.open("POST",url,true);
-        xhr.send("heartcheck");
-    },
-    startHeartCheck() {
-        this.schedule(this.checkHeart,this.heartCheckTimeGap);
-    },
     addRetryLayerToScene(){
         var canvas = cc.find("Canvas");
         var retryLayer = cc.instantiate(this.retryLayerPrefab);
@@ -102,5 +94,7 @@ cc.Class({
         cc.game.removePersistRootNode(node);
         cc.director.loadScene("loadingScene");
     }
+
+
 });
 

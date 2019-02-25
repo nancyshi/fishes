@@ -4,8 +4,6 @@ cc._RF.push(module, 'b644fqrD0lBs6Fl0VjVZvo2', 'loadingSceneMgr');
 
 "use strict";
 
-var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
-
 // Learn cc.Class:
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
@@ -48,25 +46,13 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad: function onLoad() {
-
-        var loginSys = require("loginSys");
-        loginSys.loginToServer(this.loginSuccessCallBack, this);
-    },
-    loginSuccessCallBack: function loginSuccessCallBack(paras) {
-        var playerDataSys = require("playerDataSys");
-        playerDataSys.initPlayerData(paras.changeToScene, [paras.waitingTime, paras.minumWatingTime]);
-    },
+    onLoad: function onLoad() {},
     start: function start() {},
     update: function update(dt) {
         this.waitingTime += dt;
     },
-    changeToScene: function changeToScene(_ref) {
-        var _ref2 = _slicedToArray(_ref, 2),
-            waitingTime = _ref2[0],
-            minumWatingTime = _ref2[1];
-
-        var timeDelta = waitingTime - minumWatingTime;
+    changeToScene: function changeToScene() {
+        var timeDelta = this.waitingTime - this.minumWatingTime;
         if (timeDelta < 0) {
             timeDelta = timeDelta * -1;
             setTimeout(function () {

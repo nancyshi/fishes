@@ -74,11 +74,14 @@ cc.Class({
                 var fishPosition = oneFishOnScreen.getPosition();
 
                 //add dollor
-                this.dataCenter.playerData.currentDollor += fishData.currentDollor;
-                this.updateDollorLabelStr();
+                var networkMgr = cc.find("networkMgrNode").getComponent("networkMgr");
+                var message = {
+                    type: "catchFish",
+                    fishId: fishData.fishId
+                }
+                message = JSON.stringify(message);
+                networkMgr.sendMessageToServer(message);
 
-                var playerDataSys = require("playerDataSys");
-                playerDataSys.updatePlayerData();
                 //remove the fish
                 oneFishOnScreen.removeFromParent();
                 //one new fish for animation of catched fish
@@ -254,9 +257,16 @@ cc.Class({
     },
     updateDollorLabelStr(){
         var helper = require("helper");
-        var currentDollor = this.dataCenter.playerData.currentDollor;
+        var dataCenter = require("dataCenter");
+        var currentDollor = dataCenter.playerData.currentDollor;
         var strForLabel = helper.formatNumberShowStyle(currentDollor);
         strForLabel = "$ " + strForLabel;
         this.dollorLabel.string = strForLabel;
+    },
+    onReceiveMessage(data) {
+        var dataCenter = require("dataCenter");
+        dataCenter.playerData.currentDollor = data;
+
+        this.updateDollorLabelStr();
     }
 });

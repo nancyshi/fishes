@@ -42,15 +42,10 @@ cc.Class({
 
     onLoad () {
         
-        
-        var loginSys = require("loginSys");
-        loginSys.loginToServer(this.loginSuccessCallBack,this);
+
         
     },
-    loginSuccessCallBack(paras) {
-        var playerDataSys = require("playerDataSys");
-        playerDataSys.initPlayerData(paras.changeToScene,[paras.waitingTime,paras.minumWatingTime]);
-    },
+
 
     start () {
 
@@ -61,8 +56,8 @@ cc.Class({
     },
 
     
-    changeToScene([waitingTime,minumWatingTime]){
-        var timeDelta = waitingTime - minumWatingTime;
+    changeToScene(){
+        var timeDelta = this.waitingTime - this.minumWatingTime;
         if (timeDelta < 0) {
             timeDelta = timeDelta * -1;
             setTimeout(function () {
