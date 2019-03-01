@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 120,
-      "y": 47,
+      "x": 348,
+      "y": 28,
       "width": 1320,
       "height": 815,
       "layout": {
@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 345.9375,
+                "height": 345.15625,
                 "type": "panel",
                 "width": 210
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 385.046875,
+                "height": 384.046875,
                 "type": "panel",
                 "width": 210
               }
             ],
-            "height": 733,
+            "height": 731.21875,
             "type": "dock-v",
             "width": 210
           },
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 385.046875,
+                    "height": 384.046875,
                     "type": "panel",
                     "width": 517.984375
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 385.046875,
+                    "height": 384.046875,
                     "type": "panel",
                     "width": 272
                   }
                 ],
-                "height": 385.046875,
+                "height": 384.046875,
                 "type": "dock-h",
                 "width": 791.984375
               },
@@ -69,12 +69,12 @@
                   "console",
                   "timeline"
                 ],
-                "height": 345.9375,
+                "height": 345.15625,
                 "type": "panel",
                 "width": 791.984375
               }
             ],
-            "height": 733,
+            "height": 731.21875,
             "type": "dock-v",
             "width": 791.984375
           },
@@ -83,7 +83,7 @@
             "children": [
               "inspector"
             ],
-            "height": 733,
+            "height": 731.21875,
             "type": "panel",
             "width": 314
           }

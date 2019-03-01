@@ -245,7 +245,7 @@
     "relativePath": "prefab/webview.prefab"
   },
   "c889d696-85af-47d0-aa6f-a18682d9f619": {
-    "asset": 1550681039305,
+    "asset": 1551111584296,
     "meta": 1549526663842,
     "relativePath": "res"
   },
@@ -300,7 +300,7 @@
     "relativePath": "resources/fish_10003.prefab"
   },
   "fb6d5570-35e5-4924-9afb-78a3a316b697": {
-    "asset": 1549853935194,
+    "asset": 1551111584297,
     "meta": 1549526663845,
     "relativePath": "scenes"
   },
@@ -314,13 +314,8 @@
     "meta": 1550506491853,
     "relativePath": "scenes/gameScene.fire"
   },
-  "e8edfb2d-b32f-4ae1-8e06-7c7bc435667b": {
-    "asset": 1551111408554,
-    "meta": 1551111408561,
-    "relativePath": "scenes/loadingScene.fire"
-  },
   "359a62db-0544-49df-932d-aa602a811dc1": {
-    "asset": 1550501167660,
+    "asset": 1551111584300,
     "meta": 1549526663846,
     "relativePath": "scripts"
   },
@@ -340,33 +335,38 @@
     "relativePath": "res/ipconfig.json"
   },
   "10000fe9-77bf-4ad9-862a-d01b692e14e6": {
-    "asset": 1550766077563,
-    "meta": 1550766077568,
+    "asset": 1551111584297,
+    "meta": 1551111694604,
     "relativePath": "res/retryLayer.prefab"
   },
+  "e8edfb2d-b32f-4ae1-8e06-7c7bc435667b": {
+    "asset": 1551111584297,
+    "meta": 1551111694637,
+    "relativePath": "scenes/loadingScene.fire"
+  },
   "811f52d1-7f81-4a6f-99d6-02f08711fd24": {
-    "asset": 1551103816513,
-    "meta": 1551104742781,
+    "asset": 1551111584298,
+    "meta": 1551111694780,
     "relativePath": "scripts/dataCenter.js"
   },
+  "03f55082-c111-4150-b4c0-9c41dafd6887": {
+    "asset": 1551111584299,
+    "meta": 1551111694792,
+    "relativePath": "scripts/gameMgr.js"
+  },
   "b644faab-0f49-41b3-a165-d158d566fa36": {
-    "asset": 1551108053242,
-    "meta": 1551108150492,
+    "asset": 1551111584299,
+    "meta": 1551111694808,
     "relativePath": "scripts/loadingSceneMgr.js"
   },
   "2926adcc-784f-4517-83f1-bcabbda79b4e": {
-    "asset": 1551109621418,
-    "meta": 1551109656284,
+    "asset": 1551280480891,
+    "meta": 1551280802181,
     "relativePath": "scripts/loginSys.js"
   },
-  "03f55082-c111-4150-b4c0-9c41dafd6887": {
-    "asset": 1551111240081,
-    "meta": 1551111242071,
-    "relativePath": "scripts/gameMgr.js"
-  },
   "52a9606a-4e42-4946-93bd-fe8607e45316": {
-    "asset": 1551111370430,
-    "meta": 1551111404470,
+    "asset": 1551111584300,
+    "meta": 1551111694838,
     "relativePath": "scripts/networkMgr.js"
   }
 }

@@ -21,7 +21,10 @@ var loginSys = {
                     var code = res.code;
                     var message = {
                         type: "login",
-                        token: code
+                        token: {
+                            origin: "weChat",
+                            token: code
+                        }
                     }
                     message = JSON.stringify(message);
                     ws.send(message);
@@ -31,7 +34,10 @@ var loginSys = {
         else {
             var message = {
                 type: "login",
-                token: "houwan&1231"
+                token: {
+                    origin: "localUser",
+                    token: "houwan&1231"
+                }
             }
             message = JSON.stringify(message);
             ws.send(message);
