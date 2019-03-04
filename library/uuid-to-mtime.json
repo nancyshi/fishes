@@ -310,8 +310,8 @@
     "relativePath": "res/testRect.png"
   },
   "2b520fee-3b01-44e2-83a6-4e90fb67dd67": {
-    "asset": 1549853935194,
-    "meta": 1550506491853,
+    "asset": 1551625958956,
+    "meta": 1551625958973,
     "relativePath": "scenes/gameScene.fire"
   },
   "359a62db-0544-49df-932d-aa602a811dc1": {
@@ -340,8 +340,8 @@
     "relativePath": "res/retryLayer.prefab"
   },
   "e8edfb2d-b32f-4ae1-8e06-7c7bc435667b": {
-    "asset": 1551111584297,
-    "meta": 1551111694637,
+    "asset": 1551625361158,
+    "meta": 1551625361169,
     "relativePath": "scenes/loadingScene.fire"
   },
   "811f52d1-7f81-4a6f-99d6-02f08711fd24": {
@@ -368,5 +368,25 @@
     "asset": 1551111584300,
     "meta": 1551111694838,
     "relativePath": "scripts/networkMgr.js"
+  },
+  "e18bdb77-c411-4686-8f3c-47292c6b8c92": {
+    "asset": 1551612300545,
+    "meta": 1551612300576,
+    "relativePath": "res/areaSelectButton.png"
+  },
+  "5b143861-88e1-4cda-9722-3714fed20df8": {
+    "asset": 1551624433108,
+    "meta": 1551624433115,
+    "relativePath": "res/areaSelectUI.prefab"
+  },
+  "05e0b028-1d68-4f12-8ddb-6cc0fb34ff1e": {
+    "asset": 1551624657480,
+    "meta": 1551624876857,
+    "relativePath": "scripts/uiMgr.js"
+  },
+  "d592f303-780e-4a3e-b886-58b02ccd9558": {
+    "asset": 1551625309839,
+    "meta": 1551625312328,
+    "relativePath": "scripts/backAreaMgr.js"
   }
 }
