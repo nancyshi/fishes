@@ -48,13 +48,10 @@ cc.Class({
 
     onClickAreaSelectButton() {
         var areaSelectUI = cc.instantiate(this.areaSelectPrefab);
-        var background = areaSelectUI.getChildByName("background");
-        var backArea = areaSelectUI.getChildByName("backArea");
-        var xOffset = (background.getContentSize().width + backArea.getContentSize().width) / 2;
-        areaSelectUI.setPosition(-xOffset,0);
+        areaSelectUI.setPosition(-1264,0);
         this.node.addChild(areaSelectUI);
 
-        var moveAction = cc.moveTo(0.2,cc.v2(0,0));
+        var moveAction = cc.moveTo(0.2,cc.v2(61,0));
         areaSelectUI.runAction(moveAction);
     }
 });

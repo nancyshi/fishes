@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "areaIcon_1",
+    "texture": "0df8653b-d5d4-48f3-873a-5a4217aa6d46",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      131,
+      131
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      131,
+      131
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

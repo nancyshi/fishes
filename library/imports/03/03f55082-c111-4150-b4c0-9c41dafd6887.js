@@ -42,15 +42,20 @@ cc.Class({
         catchFishNode: cc.Node,
         gotFishesNode: cc.Node,
         dollorLabel: cc.Label,
+        background: cc.Node,
 
         catchFishNodeOriginPosition: {
             default: null,
             visible: false
         },
+        backgroundColors: [cc.Color],
+        gradients: [cc.SpriteFrame],
         moveDuration: 5,
         catchedFishAnimTime: 0.5,
         addDollorLabelAnimTime: 0.5,
-        addDollorLabelAnimMoveUpDistance: 50
+        addDollorLabelAnimMoveUpDistance: 50,
+
+        _intervalProcesses: []
 
     },
 
@@ -58,7 +63,9 @@ cc.Class({
 
     onLoad: function onLoad() {
         this.dataCenter = require("dataCenter");
+        var dataCenter = require("dataCenter");
         this.catchFishNodeOriginPosition = this.catchFishNode.getPosition();
+        this.background.color = this.backgroundColors[dataCenter.playerData.currentAreaLevel - 1];
         this.openTouchEvent();
         this.startRefreshFishes();
         this.updateDollorLabelStr();
@@ -164,15 +171,22 @@ cc.Class({
     startRefreshFishes: function startRefreshFishes() {
 
         var self = this;
-        for (var element in this.dataCenter.neededFishesData) {
-            var fishData = this.dataCenter.neededFishesData[element];
+        var dataCenter = require("dataCenter");
+        for (var element in dataCenter.neededFishesData) {
+            var fishData = dataCenter.neededFishesData[element];
 
             var tempFunc = function tempFunc(para) {
-                setInterval(function () {
+                var process = setInterval(function () {
                     self.refreshOneFishByFishData(para);
                 }, para.timeDelta * 1000);
+                self._intervalProcesses.push(process);
             };
             tempFunc(fishData);
+        }
+    },
+    stopRefreshFishes: function stopRefreshFishes() {
+        for (var index in this._intervalProcesses) {
+            clearInterval(this._intervalProcesses[index]);
         }
     },
     refreshOneFishByFishData: function refreshOneFishByFishData(fishData) {
@@ -255,11 +269,55 @@ cc.Class({
         strForLabel = "$ " + strForLabel;
         this.dollorLabel.string = strForLabel;
     },
-    onReceiveMessage: function onReceiveMessage(data) {
-        var dataCenter = require("dataCenter");
-        dataCenter.playerData.currentDollor = data;
+    changeArea: function changeArea(areaIdForChange) {
+        var message = {
+            type: "changeArea",
+            areaId: areaIdForChange
+        };
+        message = JSON.stringify(message);
+        var networkMgr = cc.find("networkMgrNode").getComponent("networkMgr");
+        networkMgr.sendMessageToServer(message);
+    },
+    onReceiveMessage: function onReceiveMessage(data, type) {
+        if (type == "catchFish") {
+            var dataCenter = require("dataCenter");
+            dataCenter.playerData.currentDollor = data;
 
-        this.updateDollorLabelStr();
+            this.updateDollorLabelStr();
+        } else if (type == "changeArea") {
+            this.stopRefreshFishes();
+            this.fishesNode.removeAllChildren();
+
+            var dataCenter = require("dataCenter");
+            dataCenter.playerData = data.playerData;
+            dataCenter.neededFishesData = data.neededFishesData;
+            dataCenter.othersData = data.othersData;
+
+            //performance of change area
+            this.updateDollorLabelStr();
+            var nextBackground = cc.instantiate(this.background);
+            nextBackground.color = this.backgroundColors[dataCenter.playerData.currentAreaLevel - 1];
+
+            nextBackground.setPosition(0, this.background.getContentSize().height);
+
+            var nodes = this.node.children;
+            for (var index in nodes) {
+                var a = nodes[index];
+                a.zIndex = index;
+            }
+            nextBackground.zIndex = 1;
+            this.node.addChild(nextBackground);
+
+            var moveAction = cc.moveBy(2, cc.v2(0, -1 * this.background.getContentSize().height));
+            this.background.runAction(cc.sequence(moveAction, cc.removeSelf()));
+            var self = this;
+            var finished = cc.callFunc(function () {
+                self.background = nextBackground;
+                self.startRefreshFishes();
+            }, self);
+
+            nextBackground.runAction(cc.sequence(moveAction, finished));
+        }
     }
 });
 

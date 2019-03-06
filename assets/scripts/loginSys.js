@@ -48,6 +48,7 @@ var loginSys = {
         var dataCenter = require("dataCenter");
         dataCenter.playerData = data.playerData;
         dataCenter.neededFishesData = data.neededFishesData;
+        dataCenter.othersData = data.othersData;
         callBack.call(target);
     }
 }

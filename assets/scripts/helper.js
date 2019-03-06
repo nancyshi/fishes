@@ -99,6 +99,9 @@ var helper = {
         else {
             return false;
         }
+    },
+    takeElementToFirst(element,givenArry) {
+        
     }
 }
 

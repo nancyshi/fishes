@@ -11,7 +11,7 @@
 var dataCenter = {
     playerData: null,
     neededFishesData: null,
-
+    othersData: null
 };
 
 module.exports = dataCenter;

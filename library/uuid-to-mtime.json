@@ -245,7 +245,7 @@
     "relativePath": "prefab/webview.prefab"
   },
   "c889d696-85af-47d0-aa6f-a18682d9f619": {
-    "asset": 1551111584296,
+    "asset": 1551865904784,
     "meta": 1549526663842,
     "relativePath": "res"
   },
@@ -275,7 +275,7 @@
     "relativePath": "res/requestType.json"
   },
   "4809a3b6-bc21-4a93-b62e-0173001cf122": {
-    "asset": 1550508325695,
+    "asset": 1551865904784,
     "meta": 1549526663843,
     "relativePath": "resources"
   },
@@ -310,12 +310,12 @@
     "relativePath": "res/testRect.png"
   },
   "2b520fee-3b01-44e2-83a6-4e90fb67dd67": {
-    "asset": 1551625958956,
-    "meta": 1551625958973,
+    "asset": 1551859295976,
+    "meta": 1551859295984,
     "relativePath": "scenes/gameScene.fire"
   },
   "359a62db-0544-49df-932d-aa602a811dc1": {
-    "asset": 1551111584300,
+    "asset": 1551691183685,
     "meta": 1549526663846,
     "relativePath": "scripts"
   },
@@ -323,11 +323,6 @@
     "asset": 1549526663847,
     "meta": 1550506492552,
     "relativePath": "scripts/fishMgr.js"
-  },
-  "fcc14d34-61d6-4d7d-ae31-04a9443f876e": {
-    "asset": 1549526663848,
-    "meta": 1550506492705,
-    "relativePath": "scripts/helper.js"
   },
   "3a2554fa-c605-4a65-a032-f1c078024674": {
     "asset": 1550508999867,
@@ -340,34 +335,14 @@
     "relativePath": "res/retryLayer.prefab"
   },
   "e8edfb2d-b32f-4ae1-8e06-7c7bc435667b": {
-    "asset": 1551625361158,
-    "meta": 1551625361169,
+    "asset": 1551870772080,
+    "meta": 1551870772086,
     "relativePath": "scenes/loadingScene.fire"
-  },
-  "811f52d1-7f81-4a6f-99d6-02f08711fd24": {
-    "asset": 1551111584298,
-    "meta": 1551111694780,
-    "relativePath": "scripts/dataCenter.js"
-  },
-  "03f55082-c111-4150-b4c0-9c41dafd6887": {
-    "asset": 1551111584299,
-    "meta": 1551111694792,
-    "relativePath": "scripts/gameMgr.js"
   },
   "b644faab-0f49-41b3-a165-d158d566fa36": {
     "asset": 1551111584299,
     "meta": 1551111694808,
     "relativePath": "scripts/loadingSceneMgr.js"
-  },
-  "2926adcc-784f-4517-83f1-bcabbda79b4e": {
-    "asset": 1551280480891,
-    "meta": 1551280802181,
-    "relativePath": "scripts/loginSys.js"
-  },
-  "52a9606a-4e42-4946-93bd-fe8607e45316": {
-    "asset": 1551111584300,
-    "meta": 1551111694838,
-    "relativePath": "scripts/networkMgr.js"
   },
   "e18bdb77-c411-4686-8f3c-47292c6b8c92": {
     "asset": 1551612300545,
@@ -375,18 +350,88 @@
     "relativePath": "res/areaSelectButton.png"
   },
   "5b143861-88e1-4cda-9722-3714fed20df8": {
-    "asset": 1551624433108,
-    "meta": 1551624433115,
+    "asset": 1551866677507,
+    "meta": 1551866677512,
     "relativePath": "res/areaSelectUI.prefab"
-  },
-  "05e0b028-1d68-4f12-8ddb-6cc0fb34ff1e": {
-    "asset": 1551624657480,
-    "meta": 1551624876857,
-    "relativePath": "scripts/uiMgr.js"
   },
   "d592f303-780e-4a3e-b886-58b02ccd9558": {
     "asset": 1551625309839,
     "meta": 1551625312328,
     "relativePath": "scripts/backAreaMgr.js"
+  },
+  "5b3044b1-4024-4759-9039-d9272399c3f4": {
+    "asset": 1551690713617,
+    "meta": 1551690713679,
+    "relativePath": "res/icon_bg.png"
+  },
+  "0895a8ba-3067-40f8-a8ce-fce2a95fb9db": {
+    "asset": 1551690715784,
+    "meta": 1551690715803,
+    "relativePath": "res/icon_unknown.png"
+  },
+  "4cdb0dbe-9ce2-49d4-8b5f-d26ce4910856": {
+    "asset": 1551716488042,
+    "meta": 1551716488061,
+    "relativePath": "res/areaItem.prefab"
+  },
+  "89c3afe4-35b3-4eff-8af3-32faa9a239d8": {
+    "asset": 1551691457125,
+    "meta": 1551691457135,
+    "relativePath": "res/areaConfig.json"
+  },
+  "05e0b028-1d68-4f12-8ddb-6cc0fb34ff1e": {
+    "asset": 1551704221241,
+    "meta": 1551704229816,
+    "relativePath": "scripts/uiMgr.js"
+  },
+  "811f52d1-7f81-4a6f-99d6-02f08711fd24": {
+    "asset": 1551709476535,
+    "meta": 1551710504549,
+    "relativePath": "scripts/dataCenter.js"
+  },
+  "2926adcc-784f-4517-83f1-bcabbda79b4e": {
+    "asset": 1551709451194,
+    "meta": 1551710504550,
+    "relativePath": "scripts/loginSys.js"
+  },
+  "0df8653b-d5d4-48f3-873a-5a4217aa6d46": {
+    "asset": 1551710530331,
+    "meta": 1551710530368,
+    "relativePath": "res/areaIcon_1.png"
+  },
+  "4a2e5f86-bc4a-4d6c-adce-671736f13574": {
+    "asset": 1551710534511,
+    "meta": 1551710534532,
+    "relativePath": "res/areaIcon_2.png"
+  },
+  "51b87f12-7a86-4f4e-926f-b0d0c466277a": {
+    "asset": 1551715723988,
+    "meta": 1551715724026,
+    "relativePath": "res/triangle.png"
+  },
+  "95bbf459-ac0a-47be-8071-24ffdab3ae2f": {
+    "asset": 1551716544101,
+    "meta": 1551716544108,
+    "relativePath": "res/goItem.prefab"
+  },
+  "52a9606a-4e42-4946-93bd-fe8607e45316": {
+    "asset": 1551837423127,
+    "meta": 1551839824953,
+    "relativePath": "scripts/networkMgr.js"
+  },
+  "fcc14d34-61d6-4d7d-ae31-04a9443f876e": {
+    "asset": 1551856905816,
+    "meta": 1551859244207,
+    "relativePath": "scripts/helper.js"
+  },
+  "03f55082-c111-4150-b4c0-9c41dafd6887": {
+    "asset": 1551862591262,
+    "meta": 1551862622240,
+    "relativePath": "scripts/gameMgr.js"
+  },
+  "a7d9028b-712a-4647-bcd8-9415f0c8beb4": {
+    "asset": 1551870757385,
+    "meta": 1551870771537,
+    "relativePath": "scripts/areaUIMgr.js"
   }
 }

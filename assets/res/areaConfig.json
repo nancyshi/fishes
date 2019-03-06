@@ -1,0 +1,17 @@
+[
+    {
+        "areaId": 1,
+        "iconName": "areaIcon_1",
+        "decoration": "none" 
+    },
+    {
+        "areaId": 2,
+        "iconName": "areaIcon_2",
+        "decoration": "none" 
+    },
+    {
+        "areaId": 3,
+        "iconName": "areaIcon_3",
+        "decoration": "none" 
+    }
+]

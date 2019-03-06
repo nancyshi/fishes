@@ -16,8 +16,8 @@ cc._RF.push(module, '811f5LRf4FKb5nWAvCHEf0k', 'dataCenter', __filename);
 
 var dataCenter = {
     playerData: null,
-    neededFishesData: null
-
+    neededFishesData: null,
+    othersData: null
 };
 
 module.exports = dataCenter;

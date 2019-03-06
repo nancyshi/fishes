@@ -97,7 +97,8 @@ var helper = {
         } else {
             return false;
         }
-    }
+    },
+    takeElementToFirst: function takeElementToFirst(element, givenArry) {}
 };
 
 module.exports = helper;

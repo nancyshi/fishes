@@ -58,7 +58,12 @@ cc.Class({
             else if (messageObj.type == "catchFish") {
                 var gameMgr = cc.find("Canvas").getComponent("gameMgr");
                 var data = messageObj.currentDollor;
-                gameMgr.onReceiveMessage(data);
+                gameMgr.onReceiveMessage(data,messageObj.type);
+            }
+            else if (messageObj.type == "changeArea") {
+                var gameMgr = cc.find("Canvas").getComponent("gameMgr");
+                var data = JSON.parse(messageObj.data);
+                gameMgr.onReceiveMessage(data,messageObj.type);
             }
         }
         this.ws.onclose = function(event) {
