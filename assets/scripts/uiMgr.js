@@ -29,7 +29,8 @@ cc.Class({
         // },
         areaSelectPrefab: cc.Prefab,
         areaSelectButton: cc.Node,
-
+        intensifyPrefab: cc.Prefab,
+        intensifyButton: cc.Node
 
 
     },
@@ -53,5 +54,9 @@ cc.Class({
 
         var moveAction = cc.moveTo(0.2,cc.v2(61,0));
         areaSelectUI.runAction(moveAction);
+    },
+    onClickIntensifyButton() {
+        var intensifyUI = cc.instantiate(this.intensifyPrefab);
+        this.node.addChild(intensifyUI);
     }
 });

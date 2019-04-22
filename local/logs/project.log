@@ -1,61 +1,1296 @@
-2019-03-09T16:27:57.960Z - normal: Load ~/.CocosCreator/settings.json
-2019-03-09T16:27:58.006Z - normal: Initializing Asset Database
-2019-03-09T16:27:58.008Z - normal: checking language setting...
-2019-03-09T16:27:58.008Z - normal: Language: zh
-2019-03-09T16:27:58.749Z - success: preview server running at http://localhost:7456
-2019-03-09T16:27:58.783Z - success: protocol editor-framework registered
-2019-03-09T16:27:58.783Z - success: protocol app registered
-2019-03-09T16:27:58.783Z - success: protocol theme registered
-2019-03-09T16:27:58.783Z - success: protocol packages registered
-2019-03-09T16:27:58.784Z - success: protocol uuid registerred
-2019-03-09T16:27:58.784Z - success: protocol db registerred
-2019-03-09T16:27:58.784Z - success: protocol thumbnail registerred
-2019-03-09T16:27:58.784Z - success: protocol unpack registerred
-2019-03-09T16:27:58.784Z - success: protocol disable-commonjs registerred
-2019-03-09T16:27:58.973Z - normal: connected!
-2019-03-09T16:27:58.974Z - normal: Check project /Users/haoyun/Documents/CocosProject/Fishes
-2019-03-09T16:27:58.975Z - normal: Initializing project /Users/haoyun/Documents/CocosProject/Fishes
-2019-03-09T16:27:59.605Z - normal: Initializing Cocos2d
-2019-03-09T16:28:00.197Z - normal: Initializing engine extends
-2019-03-09T16:28:00.199Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
-2019-03-09T16:28:00.212Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
-2019-03-09T16:28:00.780Z - success: assets loaded
-2019-03-09T16:28:00.781Z - success: asset-db-debugger loaded
-2019-03-09T16:28:00.844Z - success: builder loaded
-2019-03-09T16:28:00.844Z - success: color-picker loaded
-2019-03-09T16:28:00.951Z - success: cocos-analytics loaded
-2019-03-09T16:28:00.951Z - success: google-play-instant loaded
-2019-03-09T16:28:00.966Z - success: console loaded
-2019-03-09T16:28:00.967Z - success: jsb-adapter loaded
-2019-03-09T16:28:01.105Z - success: fb-instant-games loaded
-2019-03-09T16:28:01.106Z - success: oppo-runtime loaded
-2019-03-09T16:28:01.122Z - success: google-instant-games loaded
-2019-03-09T16:28:01.123Z - success: package-manager loaded
-2019-03-09T16:28:01.262Z - success: hierarchy loaded
-2019-03-09T16:28:01.262Z - success: qqplay-adapter loaded
-2019-03-09T16:28:01.281Z - success: inspector loaded
-2019-03-09T16:28:01.282Z - success: sdkbox loaded
-2019-03-09T16:28:01.296Z - success: keystore loaded
-2019-03-09T16:28:01.297Z - success: tester loaded
-2019-03-09T16:28:01.404Z - success: node-library loaded
-2019-03-09T16:28:01.405Z - success: ui-grid loaded
-2019-03-09T16:28:01.418Z - success: package-asset loaded
-2019-03-09T16:28:01.419Z - success: ui-kit-preview-extra loaded
-2019-03-09T16:28:01.438Z - success: preferences loaded
-2019-03-09T16:28:01.438Z - success: ui-kit-preview loaded
-2019-03-09T16:28:01.451Z - success: project-exporter loaded
-2019-03-09T16:28:01.451Z - success: ui-kit loaded
-2019-03-09T16:28:01.478Z - success: project-importer loaded
-2019-03-09T16:28:01.479Z - success: ui-tree loaded
-2019-03-09T16:28:01.495Z - success: project-settings loaded
-2019-03-09T16:28:01.496Z - success: vivo-runtime loaded
-2019-03-09T16:28:01.511Z - success: scene loaded
-2019-03-09T16:28:01.512Z - success: weapp-adapter loaded
-2019-03-09T16:28:01.515Z - success: simulator-debugger loaded
-2019-03-09T16:28:01.518Z - success: sprite-editor loaded
-2019-03-09T16:28:01.533Z - success: store loaded
-2019-03-09T16:28:01.549Z - success: timeline loaded
-2019-03-09T16:28:02.544Z - normal: Loading packages
-2019-03-09T16:28:02.549Z - normal: Watching packages
-2019-03-09T16:28:02.609Z - normal: Run Application
-2019-03-09T17:26:46.630Z - info: shutdown preview server
+2019-03-16T02:25:18.766Z - normal: Load ~/.CocosCreator/settings.json
+2019-03-16T02:25:18.810Z - normal: Initializing Asset Database
+2019-03-16T02:25:18.813Z - normal: checking language setting...
+2019-03-16T02:25:18.813Z - normal: Language: zh
+2019-03-16T02:25:19.614Z - success: preview server running at http://localhost:7456
+2019-03-16T02:25:19.653Z - success: protocol editor-framework registered
+2019-03-16T02:25:19.653Z - success: protocol app registered
+2019-03-16T02:25:19.653Z - success: protocol theme registered
+2019-03-16T02:25:19.653Z - success: protocol packages registered
+2019-03-16T02:25:19.653Z - success: protocol uuid registerred
+2019-03-16T02:25:19.654Z - success: protocol db registerred
+2019-03-16T02:25:19.654Z - success: protocol thumbnail registerred
+2019-03-16T02:25:19.654Z - success: protocol unpack registerred
+2019-03-16T02:25:19.654Z - success: protocol disable-commonjs registerred
+2019-03-16T02:25:19.874Z - normal: connected!
+2019-03-16T02:25:19.876Z - normal: Check project /Users/edz/Documents/CocosProject/fishes
+2019-03-16T02:25:19.878Z - normal: Initializing project /Users/edz/Documents/CocosProject/fishes
+2019-03-16T02:25:20.562Z - normal: Initializing Cocos2d
+2019-03-16T02:25:21.279Z - normal: Initializing engine extends
+2019-03-16T02:25:21.282Z - normal: Loading editor/builtin packages from /Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin
+2019-03-16T02:25:21.290Z - normal: Loading builtin packages from /Applications/CocosCreator.app/Contents/Resources/builtin
+2019-03-16T02:25:21.907Z - success: assets loaded
+2019-03-16T02:25:21.908Z - success: asset-db-debugger loaded
+2019-03-16T02:25:21.967Z - success: builder loaded
+2019-03-16T02:25:21.968Z - success: color-picker loaded
+2019-03-16T02:25:22.091Z - success: cocos-analytics loaded
+2019-03-16T02:25:22.091Z - success: google-play-instant loaded
+2019-03-16T02:25:22.135Z - success: console loaded
+2019-03-16T02:25:22.135Z - success: jsb-adapter loaded
+2019-03-16T02:25:22.193Z - success: fb-instant-games loaded
+2019-03-16T02:25:22.194Z - success: oppo-runtime loaded
+2019-03-16T02:25:22.262Z - success: google-instant-games loaded
+2019-03-16T02:25:22.264Z - success: package-manager loaded
+2019-03-16T02:25:22.421Z - success: hierarchy loaded
+2019-03-16T02:25:22.421Z - success: qqplay-adapter loaded
+2019-03-16T02:25:22.447Z - success: inspector loaded
+2019-03-16T02:25:22.447Z - success: sdkbox loaded
+2019-03-16T02:25:22.458Z - success: keystore loaded
+2019-03-16T02:25:22.459Z - success: tester loaded
+2019-03-16T02:25:22.475Z - success: node-library loaded
+2019-03-16T02:25:22.475Z - success: ui-grid loaded
+2019-03-16T02:25:22.487Z - success: package-asset loaded
+2019-03-16T02:25:22.487Z - success: ui-kit-preview-extra loaded
+2019-03-16T02:25:22.498Z - success: preferences loaded
+2019-03-16T02:25:22.498Z - success: ui-kit-preview loaded
+2019-03-16T02:25:22.510Z - success: project-exporter loaded
+2019-03-16T02:25:22.510Z - success: ui-kit loaded
+2019-03-16T02:25:22.536Z - success: project-importer loaded
+2019-03-16T02:25:22.536Z - success: ui-tree loaded
+2019-03-16T02:25:22.548Z - success: project-settings loaded
+2019-03-16T02:25:22.549Z - success: vivo-runtime loaded
+2019-03-16T02:25:22.559Z - success: scene loaded
+2019-03-16T02:25:22.560Z - success: weapp-adapter loaded
+2019-03-16T02:25:22.565Z - success: simulator-debugger loaded
+2019-03-16T02:25:22.566Z - success: sprite-editor loaded
+2019-03-16T02:25:22.741Z - normal: Loading packages
+2019-03-16T02:25:22.743Z - success: store loaded
+2019-03-16T02:25:22.755Z - success: timeline loaded
+2019-03-16T02:25:22.756Z - normal: Watching packages
+2019-03-16T02:25:22.826Z - normal: Run Application
+2019-03-16T08:19:03.474Z - normal: Simulator: WORKAREA WIDTH 1396.00, HEIGHT 855.00
+2019-03-16T08:19:03.476Z - normal: Simulator: FRAME SCALE = 1.00
+2019-03-16T08:19:03.571Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-03-16T08:19:03.575Z - normal: Simulator: 
+2019-03-16T08:19:03.576Z - normal: Simulator: {
+2019-03-16T08:19:03.576Z - normal: Simulator: 	build_type: DEBUG
+2019-03-16T08:19:03.576Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-03-16T08:19:03.576Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-03-16T08:19:03.576Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-03-16T08:19:03.576Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-03-16T08:19:03.577Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-03-16T08:19:03.577Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-03-16T08:19:03.577Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-03-16T08:19:03.577Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-03-16T08:19:03.578Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-03-16T08:19:03.578Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-03-16T08:19:03.578Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-03-16T08:19:03.578Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-03-16T08:19:03.578Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-03-16T08:19:03.578Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-03-16T08:19:03.578Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.4.7
+2019-03-16T08:19:03.578Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-03-16T08:19:03.579Z - normal: Simulator: 	compiled_with_profiler: false
+2019-03-16T08:19:03.579Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-03-16T08:19:03.579Z - normal: Simulator: }
+2019-03-16T08:19:03.616Z - normal: Simulator: Project Config:
+2019-03-16T08:19:03.616Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-03-16T08:19:03.617Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-03-16T08:19:03.617Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-03-16T08:19:03.617Z - normal: Simulator:     frame size: 960 x 640
+2019-03-16T08:19:03.618Z - normal: Simulator:     frame scale: 1.00
+2019-03-16T08:19:03.618Z - normal: Simulator:     show console: NO
+2019-03-16T08:19:03.618Z - normal: Simulator:     write debug log: NO ()
+2019-03-16T08:19:03.618Z - normal: Simulator:     listen: 
+2019-03-16T08:19:03.618Z - normal: Simulator:     debugger: none
+2019-03-16T08:19:03.618Z - normal: Simulator:     add searching path:
+2019-03-16T08:19:03.619Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:19:03.619Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:19:03.619Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-03-16T08:19:03.619Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:19:03.619Z - normal: Simulator: Initializing V8, version: 6.0.286.52
+2019-03-16T08:19:03.952Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-03-16T08:19:03.956Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-03-16T08:19:03.956Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-03-16T08:19:04.001Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-03-16T08:19:04.004Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:19:04.004Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:19:04.005Z - normal: Simulator: LOAD Js FILE: main.js
+2019-03-16T08:19:04.005Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:19:04.412Z - normal: Simulator: iShow!
+2019-03-16T08:19:04.522Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-03-16T08:19:04.537Z - normal: Simulator: JS: Cocos Creator v2.1.0
+2019-03-16T08:19:07.694Z - normal: Simulator: JS: LoadScene 2b520fee-3b01-44e2-83a6-4e90fb67dd67: 36.628000000000156ms
+2019-03-16T08:19:08.233Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:08.731Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:09.132Z - normal: Simulator: JS: oneInfo is [object Object]
+2019-03-16T08:19:09.134Z - error: Simulator: ERROR: Uncaught TypeError: Cannot read property 'getComponent' of null, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]setupBoatIntensityUI@assets/scripts/intensityUIMgr.js:56
+[1]onLoad@assets/scripts/intensityUIMgr.js:44
+[2]anonymous@(no filename):3
+[3]invoke@src/cocos2d-jsb.js:13103
+[4]activateNode@src/cocos2d-jsb.js:24180
+[5]_onHierarchyChanged@src/cocos2d-jsb.js:45119
+[6]_onHierarchyChanged@src/cocos2d-jsb.js:9206
+[7]setParent@src/cocos2d-jsb.js:44866
+[8]addChild@src/cocos2d-jsb.js:9954
+[9]onClickIntensifyButton@assets/scripts/uiMgr.js:61
+[10]emit@src/cocos2d-jsb.js:14480
+[11]emitEvents@src/cocos2d-jsb.js:14463
+[12]_onTouchEnded@src/cocos2d-jsb.js:14057
+[13]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[14]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[15]dispatchEvent@src/cocos2d-jsb.js:9463
+[16]_touchEndHandler@src/cocos2d-jsb.js:8725
+[17]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[18]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[19]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7fb928cdcb90) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:19:09.237Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:09.742Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:10.252Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:10.758Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:11.269Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:11.784Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:12.292Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:12.805Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:19:13.061Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-03-16T08:19:13.062Z - normal: Simulator: GC begin ..., (js->native map) size: 43, all objects: 82
+2019-03-16T08:19:13.108Z - normal: Simulator: GC end ..., (js->native map) size: 43, all objects: 82
+2019-03-16T08:19:13.108Z - normal: Simulator: GC begin ..., (js->native map) size: 43, all objects: 82
+2019-03-16T08:19:13.147Z - normal: Simulator: GC end ..., (js->native map) size: 43, all objects: 82
+2019-03-16T08:19:13.148Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2019-03-16T08:19:13.148Z - normal: Simulator: Destroy WebGLTexture (22) by GC
+2019-03-16T08:19:13.148Z - normal: Simulator: Destroy WebGLTexture (24) by GC
+2019-03-16T08:19:13.149Z - normal: Simulator: Destroy WebGLTexture (21) by GC
+2019-03-16T08:19:13.149Z - normal: Simulator: Destroy WebGLTexture (20) by GC
+2019-03-16T08:19:13.149Z - normal: Simulator: Destroy WebGLTexture (17) by GC
+2019-03-16T08:19:13.149Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-03-16T08:19:13.150Z - normal: Simulator: Destroy WebGLTexture (19) by GC
+2019-03-16T08:19:13.150Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-03-16T08:19:13.150Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-03-16T08:19:13.151Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-03-16T08:19:13.151Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-03-16T08:19:13.151Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-03-16T08:19:13.152Z - normal: Simulator: Destroy WebGLTexture (18) by GC
+2019-03-16T08:19:13.152Z - normal: Simulator: Destroy WebGLTexture (23) by GC
+2019-03-16T08:19:13.152Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-03-16T08:19:13.152Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-03-16T08:19:13.152Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-03-16T08:19:13.153Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-03-16T08:19:13.154Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-03-16T08:19:13.154Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-03-16T08:19:13.154Z - normal: Simulator: Destroy WebGLTexture (25) by GC
+2019-03-16T08:19:13.154Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-03-16T08:19:13.154Z - normal: Simulator: Destroy WebGLTexture (26) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-03-16T08:19:13.155Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-03-16T08:19:13.156Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-03-16T08:19:13.156Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-03-16T08:19:13.156Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-03-16T08:19:13.156Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-03-16T08:19:13.156Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:19:13.189Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:19:13.194Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-03-16T08:20:52.574Z - normal: Simulator: WORKAREA WIDTH 1396.00, HEIGHT 855.00
+2019-03-16T08:20:52.576Z - normal: Simulator: FRAME SCALE = 1.00
+2019-03-16T08:20:52.660Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-03-16T08:20:52.660Z - normal: Simulator: 
+2019-03-16T08:20:52.661Z - normal: Simulator: {
+2019-03-16T08:20:52.661Z - normal: Simulator: 	build_type: DEBUG
+2019-03-16T08:20:52.661Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-03-16T08:20:52.661Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-03-16T08:20:52.661Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-03-16T08:20:52.661Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-03-16T08:20:52.662Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-03-16T08:20:52.662Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-03-16T08:20:52.662Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-03-16T08:20:52.662Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-03-16T08:20:52.662Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-03-16T08:20:52.663Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-03-16T08:20:52.663Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-03-16T08:20:52.663Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-03-16T08:20:52.663Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-03-16T08:20:52.663Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-03-16T08:20:52.664Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.4.7
+2019-03-16T08:20:52.664Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-03-16T08:20:52.664Z - normal: Simulator: 	compiled_with_profiler: false
+2019-03-16T08:20:52.664Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-03-16T08:20:52.664Z - normal: Simulator: }
+2019-03-16T08:20:52.697Z - normal: Simulator: Project Config:
+2019-03-16T08:20:52.698Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-03-16T08:20:52.698Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-03-16T08:20:52.699Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-03-16T08:20:52.699Z - normal: Simulator:     frame size: 960 x 640
+2019-03-16T08:20:52.699Z - normal: Simulator:     frame scale: 1.00
+2019-03-16T08:20:52.699Z - normal: Simulator:     show console: NO
+2019-03-16T08:20:52.699Z - normal: Simulator:     write debug log: NO ()
+2019-03-16T08:20:52.699Z - normal: Simulator:     listen: 
+2019-03-16T08:20:52.700Z - normal: Simulator:     debugger: none
+2019-03-16T08:20:52.700Z - normal: Simulator:     add searching path:
+2019-03-16T08:20:52.700Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:20:52.700Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:20:52.700Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-03-16T08:20:52.701Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:20:52.701Z - normal: Simulator: Initializing V8, version: 6.0.286.52
+2019-03-16T08:20:52.998Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-03-16T08:20:52.998Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-03-16T08:20:52.998Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-03-16T08:20:53.047Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-03-16T08:20:53.049Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:20:53.050Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:20:53.050Z - normal: Simulator: LOAD Js FILE: main.js
+2019-03-16T08:20:53.050Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:20:53.466Z - normal: Simulator: iShow!
+2019-03-16T08:20:53.577Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-03-16T08:20:53.590Z - normal: Simulator: JS: Cocos Creator v2.1.0
+2019-03-16T08:20:53.710Z - error: Simulator: 2019-03-16 16:20:53.708 Simulator[1834:1033532] :( Websocket Failed With Error Error Domain=NSPOSIXErrorDomain Code=61 "Connection refused" UserInfo={_kCFStreamErrorCodeKey=61, _kCFStreamErrorDomainKey=1}
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:20:56.261Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-03-16T08:20:56.264Z - normal: Simulator: GC begin ..., (js->native map) size: 28, all objects: 67
+2019-03-16T08:20:56.308Z - normal: Simulator: GC end ..., (js->native map) size: 28, all objects: 67
+2019-03-16T08:20:56.319Z - normal: Simulator: GC begin ..., (js->native map) size: 28, all objects: 67
+2019-03-16T08:20:56.350Z - normal: Simulator: GC end ..., (js->native map) size: 28, all objects: 67
+2019-03-16T08:20:56.351Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2019-03-16T08:20:56.351Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-03-16T08:20:56.353Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-03-16T08:20:56.353Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-03-16T08:20:56.353Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-03-16T08:20:56.353Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-03-16T08:20:56.354Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-03-16T08:20:56.354Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-03-16T08:20:56.355Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-03-16T08:20:56.355Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-03-16T08:20:56.355Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-03-16T08:20:56.356Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-03-16T08:20:56.356Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-03-16T08:20:56.356Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-03-16T08:20:56.356Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-03-16T08:20:56.356Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-03-16T08:20:56.357Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-03-16T08:20:56.357Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-03-16T08:20:56.357Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-03-16T08:20:56.357Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-03-16T08:20:56.357Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-03-16T08:20:56.357Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:20:56.391Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:20:56.394Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-03-16T08:21:02.597Z - normal: Simulator: WORKAREA WIDTH 1396.00, HEIGHT 855.00
+2019-03-16T08:21:02.597Z - normal: Simulator: FRAME SCALE = 1.00
+2019-03-16T08:21:02.668Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-03-16T08:21:02.686Z - normal: Simulator: 
+2019-03-16T08:21:02.686Z - normal: Simulator: {
+2019-03-16T08:21:02.686Z - normal: Simulator: 	build_type: DEBUG
+2019-03-16T08:21:02.687Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-03-16T08:21:02.687Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-03-16T08:21:02.687Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-03-16T08:21:02.688Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-03-16T08:21:02.688Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-03-16T08:21:02.689Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-03-16T08:21:02.690Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-03-16T08:21:02.690Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-03-16T08:21:02.690Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-03-16T08:21:02.691Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-03-16T08:21:02.691Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-03-16T08:21:02.691Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-03-16T08:21:02.691Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-03-16T08:21:02.691Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-03-16T08:21:02.691Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.4.7
+2019-03-16T08:21:02.691Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-03-16T08:21:02.692Z - normal: Simulator: 	compiled_with_profiler: false
+2019-03-16T08:21:02.692Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-03-16T08:21:02.692Z - normal: Simulator: }
+2019-03-16T08:21:02.715Z - normal: Simulator: Project Config:
+2019-03-16T08:21:02.715Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-03-16T08:21:02.716Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-03-16T08:21:02.716Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-03-16T08:21:02.716Z - normal: Simulator:     frame size: 960 x 640
+2019-03-16T08:21:02.716Z - normal: Simulator:     frame scale: 1.00
+2019-03-16T08:21:02.717Z - normal: Simulator:     show console: NO
+2019-03-16T08:21:02.717Z - normal: Simulator:     write debug log: NO ()
+2019-03-16T08:21:02.717Z - normal: Simulator:     listen: 
+2019-03-16T08:21:02.717Z - normal: Simulator:     debugger: none
+2019-03-16T08:21:02.718Z - normal: Simulator:     add searching path:
+2019-03-16T08:21:02.718Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:21:02.718Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:21:02.718Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-03-16T08:21:02.719Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:21:02.719Z - normal: Simulator: Initializing V8, version: 6.0.286.52
+2019-03-16T08:21:03.004Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-03-16T08:21:03.004Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-03-16T08:21:03.004Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-03-16T08:21:03.038Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-03-16T08:21:03.038Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:21:03.038Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:21:03.039Z - normal: Simulator: LOAD Js FILE: main.js
+2019-03-16T08:21:03.039Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:21:03.423Z - normal: Simulator: iShow!
+2019-03-16T08:21:03.528Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-03-16T08:21:03.540Z - normal: Simulator: JS: Cocos Creator v2.1.0
+2019-03-16T08:21:06.694Z - normal: Simulator: JS: LoadScene 2b520fee-3b01-44e2-83a6-4e90fb67dd67: 37.335000000000036ms
+2019-03-16T08:21:07.231Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:07.734Z - normal: Simulator: JS: oneInfo is [object Object]
+2019-03-16T08:21:07.740Z - normal: Simulator: JS: oneInfo is [object Object]
+2019-03-16T08:21:07.746Z - normal: Simulator: JS: oneInfo is [object Object]
+2019-03-16T08:21:07.761Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:08.239Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:08.738Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:09.240Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:09.742Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:10.243Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:10.743Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:11.244Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:11.745Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:12.246Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:12.746Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:13.248Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:13.750Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:14.252Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:14.754Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:15.260Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:15.764Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:16.268Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:16.771Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:17.273Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:17.777Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:18.282Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:18.737Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:18.788Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:19.289Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:19.789Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:20.290Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:20.798Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:21.304Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:21.741Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:21.811Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:22.314Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:22.816Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:23.318Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:23.825Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:24.325Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:24.825Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:25.326Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:25.828Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:26.328Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:26.829Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:27.329Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:27.749Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:27.832Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:28.334Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:28.841Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:29.342Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:29.843Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:30.344Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:30.847Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:31.353Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:31.856Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:31.993Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:84
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7f981cc09210) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:21:32.362Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:32.863Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:33.363Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:33.864Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:34.364Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:34.866Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:35.367Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:35.869Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:21:36.352Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-03-16T08:21:36.353Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:21:36.362Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:21:36.362Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:21:36.399Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:21:36.399Z - normal: Simulator: Destroy WebGLProgram (9) by GC
+2019-03-16T08:21:36.400Z - normal: Simulator: Destroy WebGLBuffer (12) by GC
+2019-03-16T08:21:36.400Z - normal: Simulator: Destroy WebGLBuffer (11) by GC
+2019-03-16T08:21:36.401Z - normal: Simulator: Destroy WebGLBuffer (9) by GC
+2019-03-16T08:21:36.401Z - normal: Simulator: Destroy WebGLTexture (41) by GC
+2019-03-16T08:21:36.401Z - normal: Simulator: Destroy WebGLTexture (40) by GC
+2019-03-16T08:21:36.401Z - normal: Simulator: Destroy WebGLTexture (39) by GC
+2019-03-16T08:21:36.401Z - normal: Simulator: Destroy WebGLTexture (38) by GC
+2019-03-16T08:21:36.402Z - normal: Simulator: Destroy WebGLTexture (37) by GC
+2019-03-16T08:21:36.403Z - normal: Simulator: Destroy WebGLTexture (35) by GC
+2019-03-16T08:21:36.403Z - normal: Simulator: Destroy WebGLTexture (34) by GC
+2019-03-16T08:21:36.403Z - normal: Simulator: Destroy WebGLTexture (32) by GC
+2019-03-16T08:21:36.403Z - normal: Simulator: Destroy WebGLTexture (31) by GC
+2019-03-16T08:21:36.403Z - normal: Simulator: Destroy WebGLTexture (29) by GC
+2019-03-16T08:21:36.404Z - normal: Simulator: Destroy WebGLTexture (28) by GC
+2019-03-16T08:21:36.404Z - normal: Simulator: Destroy WebGLTexture (21) by GC
+2019-03-16T08:21:36.404Z - normal: Simulator: Destroy WebGLTexture (20) by GC
+2019-03-16T08:21:36.404Z - normal: Simulator: Destroy WebGLTexture (17) by GC
+2019-03-16T08:21:36.404Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-03-16T08:21:36.404Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-03-16T08:21:36.404Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-03-16T08:21:36.405Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-03-16T08:21:36.405Z - normal: Simulator: Destroy WebGLTexture (43) by GC
+2019-03-16T08:21:36.405Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-03-16T08:21:36.405Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-03-16T08:21:36.406Z - normal: Simulator: Destroy WebGLTexture (36) by GC
+2019-03-16T08:21:36.406Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-03-16T08:21:36.406Z - normal: Simulator: Destroy WebGLTexture (30) by GC
+2019-03-16T08:21:36.406Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-03-16T08:21:36.406Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-03-16T08:21:36.407Z - normal: Simulator: Destroy WebGLTexture (25) by GC
+2019-03-16T08:21:36.407Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-03-16T08:21:36.407Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-03-16T08:21:36.407Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-03-16T08:21:36.407Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-03-16T08:21:36.407Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-03-16T08:21:36.407Z - normal: Simulator: Destroy WebGLTexture (23) by GC
+2019-03-16T08:21:36.408Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-03-16T08:21:36.408Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-03-16T08:21:36.408Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-03-16T08:21:36.408Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-03-16T08:21:36.408Z - normal: Simulator: Destroy WebGLTexture (19) by GC
+2019-03-16T08:21:36.408Z - normal: Simulator: Destroy WebGLBuffer (10) by GC
+2019-03-16T08:21:36.408Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2019-03-16T08:21:36.409Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-03-16T08:21:36.409Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-03-16T08:21:36.409Z - normal: Simulator: Destroy WebGLTexture (18) by GC
+2019-03-16T08:21:36.409Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-03-16T08:21:36.409Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-03-16T08:21:36.409Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-03-16T08:21:36.409Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLTexture (26) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLTexture (22) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLTexture (33) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLTexture (27) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLTexture (24) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLTexture (42) by GC
+2019-03-16T08:21:36.410Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-03-16T08:21:36.411Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:21:36.460Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:21:36.461Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-03-16T08:48:02.636Z - normal: Simulator: WORKAREA WIDTH 1397.00, HEIGHT 855.00
+2019-03-16T08:48:02.638Z - normal: Simulator: FRAME SCALE = 1.00
+2019-03-16T08:48:02.722Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-03-16T08:48:02.745Z - normal: Simulator: 
+2019-03-16T08:48:02.746Z - normal: Simulator: {
+2019-03-16T08:48:02.746Z - normal: Simulator: 	build_type: DEBUG
+2019-03-16T08:48:02.746Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-03-16T08:48:02.747Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-03-16T08:48:02.747Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-03-16T08:48:02.747Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-03-16T08:48:02.747Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-03-16T08:48:02.748Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-03-16T08:48:02.748Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-03-16T08:48:02.748Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-03-16T08:48:02.748Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-03-16T08:48:02.748Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-03-16T08:48:02.748Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-03-16T08:48:02.749Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-03-16T08:48:02.749Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-03-16T08:48:02.749Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-03-16T08:48:02.749Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.4.7
+2019-03-16T08:48:02.749Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-03-16T08:48:02.749Z - normal: Simulator: 	compiled_with_profiler: false
+2019-03-16T08:48:02.749Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-03-16T08:48:02.750Z - normal: Simulator: }
+2019-03-16T08:48:02.806Z - normal: Simulator: Project Config:
+2019-03-16T08:48:02.806Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-03-16T08:48:02.806Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-03-16T08:48:02.807Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-03-16T08:48:02.807Z - normal: Simulator:     frame size: 960 x 640
+2019-03-16T08:48:02.807Z - normal: Simulator:     frame scale: 1.00
+2019-03-16T08:48:02.807Z - normal: Simulator:     show console: NO
+2019-03-16T08:48:02.808Z - normal: Simulator:     write debug log: NO ()
+2019-03-16T08:48:02.808Z - normal: Simulator:     listen: 
+2019-03-16T08:48:02.808Z - normal: Simulator:     debugger: none
+2019-03-16T08:48:02.808Z - normal: Simulator:     add searching path:
+2019-03-16T08:48:02.808Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:48:02.809Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:48:02.809Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-03-16T08:48:02.810Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:48:02.810Z - normal: Simulator: Initializing V8, version: 6.0.286.52
+2019-03-16T08:48:03.111Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-03-16T08:48:03.111Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-03-16T08:48:03.112Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-03-16T08:48:03.150Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-03-16T08:48:03.151Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:48:03.151Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:48:03.152Z - normal: Simulator: LOAD Js FILE: main.js
+2019-03-16T08:48:03.152Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:48:03.530Z - normal: Simulator: iShow!
+2019-03-16T08:48:03.634Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-03-16T08:48:03.647Z - normal: Simulator: JS: Cocos Creator v2.1.0
+2019-03-16T08:48:06.805Z - normal: Simulator: JS: LoadScene 2b520fee-3b01-44e2-83a6-4e90fb67dd67: 37.728000000000065ms
+2019-03-16T08:48:07.337Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:07.840Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:08.352Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:08.859Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:09.369Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:09.672Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7ffbe9da3f40) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:48:09.873Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:10.376Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:10.511Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7ffbe9da3fc0) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:48:10.881Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:11.390Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:11.897Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:48:12.481Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-03-16T08:48:12.482Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:48:12.529Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:48:12.529Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:48:12.571Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:48:12.571Z - normal: Simulator: Destroy WebGLProgram (9) by GC
+2019-03-16T08:48:12.572Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-03-16T08:48:12.573Z - normal: Simulator: Destroy WebGLBuffer (12) by GC
+2019-03-16T08:48:12.573Z - normal: Simulator: Destroy WebGLBuffer (11) by GC
+2019-03-16T08:48:12.573Z - normal: Simulator: Destroy WebGLTexture (43) by GC
+2019-03-16T08:48:12.573Z - normal: Simulator: Destroy WebGLBuffer (10) by GC
+2019-03-16T08:48:12.574Z - normal: Simulator: Destroy WebGLTexture (39) by GC
+2019-03-16T08:48:12.574Z - normal: Simulator: Destroy WebGLTexture (37) by GC
+2019-03-16T08:48:12.574Z - normal: Simulator: Destroy WebGLTexture (36) by GC
+2019-03-16T08:48:12.574Z - normal: Simulator: Destroy WebGLTexture (35) by GC
+2019-03-16T08:48:12.574Z - normal: Simulator: Destroy WebGLTexture (34) by GC
+2019-03-16T08:48:12.575Z - normal: Simulator: Destroy WebGLTexture (38) by GC
+2019-03-16T08:48:12.575Z - normal: Simulator: Destroy WebGLTexture (33) by GC
+2019-03-16T08:48:12.576Z - normal: Simulator: Destroy WebGLTexture (32) by GC
+2019-03-16T08:48:12.576Z - normal: Simulator: Destroy WebGLTexture (31) by GC
+2019-03-16T08:48:12.576Z - normal: Simulator: Destroy WebGLTexture (30) by GC
+2019-03-16T08:48:12.576Z - normal: Simulator: Destroy WebGLTexture (28) by GC
+2019-03-16T08:48:12.576Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2019-03-16T08:48:12.577Z - normal: Simulator: Destroy WebGLTexture (24) by GC
+2019-03-16T08:48:12.577Z - normal: Simulator: Destroy WebGLTexture (22) by GC
+2019-03-16T08:48:12.577Z - normal: Simulator: Destroy WebGLTexture (26) by GC
+2019-03-16T08:48:12.577Z - normal: Simulator: Destroy WebGLTexture (20) by GC
+2019-03-16T08:48:12.578Z - normal: Simulator: Destroy WebGLTexture (40) by GC
+2019-03-16T08:48:12.578Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-03-16T08:48:12.578Z - normal: Simulator: Destroy WebGLTexture (27) by GC
+2019-03-16T08:48:12.578Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-03-16T08:48:12.580Z - normal: Simulator: Destroy WebGLTexture (19) by GC
+2019-03-16T08:48:12.580Z - normal: Simulator: Destroy WebGLTexture (23) by GC
+2019-03-16T08:48:12.580Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-03-16T08:48:12.580Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-03-16T08:48:12.581Z - normal: Simulator: Destroy WebGLTexture (29) by GC
+2019-03-16T08:48:12.581Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-03-16T08:48:12.581Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-03-16T08:48:12.581Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-03-16T08:48:12.582Z - normal: Simulator: Destroy WebGLTexture (21) by GC
+2019-03-16T08:48:12.582Z - normal: Simulator: Destroy WebGLTexture (17) by GC
+2019-03-16T08:48:12.582Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-03-16T08:48:12.582Z - normal: Simulator: Destroy WebGLTexture (41) by GC
+2019-03-16T08:48:12.582Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-03-16T08:48:12.582Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-03-16T08:48:12.583Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-03-16T08:48:12.583Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-03-16T08:48:12.583Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-03-16T08:48:12.583Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-03-16T08:48:12.583Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-03-16T08:48:12.583Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-03-16T08:48:12.583Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-03-16T08:48:12.584Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-03-16T08:48:12.584Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-03-16T08:48:12.584Z - normal: Simulator: Destroy WebGLTexture (42) by GC
+2019-03-16T08:48:12.584Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-03-16T08:48:12.584Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-03-16T08:48:12.584Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-03-16T08:48:12.584Z - normal: Simulator: Destroy WebGLTexture (18) by GC
+2019-03-16T08:48:12.585Z - normal: Simulator: Destroy WebGLBuffer (9) by GC
+2019-03-16T08:48:12.585Z - normal: Simulator: Destroy WebGLTexture (25) by GC
+2019-03-16T08:48:12.585Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-03-16T08:48:12.585Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-03-16T08:48:12.585Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-03-16T08:48:12.585Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:48:12.615Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:48:12.618Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-03-16T08:49:39.456Z - normal: Simulator: WORKAREA WIDTH 1396.00, HEIGHT 855.00
+2019-03-16T08:49:39.458Z - normal: Simulator: FRAME SCALE = 1.00
+2019-03-16T08:49:39.523Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-03-16T08:49:39.523Z - normal: Simulator: 
+2019-03-16T08:49:39.524Z - normal: Simulator: {
+2019-03-16T08:49:39.524Z - normal: Simulator: 	build_type: DEBUG
+2019-03-16T08:49:39.541Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-03-16T08:49:39.542Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-03-16T08:49:39.542Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-03-16T08:49:39.542Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-03-16T08:49:39.542Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-03-16T08:49:39.542Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-03-16T08:49:39.543Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-03-16T08:49:39.543Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-03-16T08:49:39.543Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-03-16T08:49:39.543Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-03-16T08:49:39.543Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-03-16T08:49:39.543Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-03-16T08:49:39.543Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-03-16T08:49:39.544Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-03-16T08:49:39.544Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.4.7
+2019-03-16T08:49:39.544Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-03-16T08:49:39.544Z - normal: Simulator: 	compiled_with_profiler: false
+2019-03-16T08:49:39.544Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-03-16T08:49:39.544Z - normal: Simulator: }
+2019-03-16T08:49:39.593Z - normal: Simulator: Project Config:
+2019-03-16T08:49:39.593Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-03-16T08:49:39.593Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-03-16T08:49:39.593Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-03-16T08:49:39.594Z - normal: Simulator:     frame size: 960 x 640
+2019-03-16T08:49:39.594Z - normal: Simulator:     frame scale: 1.00
+2019-03-16T08:49:39.594Z - normal: Simulator:     show console: NO
+2019-03-16T08:49:39.595Z - normal: Simulator:     write debug log: NO ()
+2019-03-16T08:49:39.595Z - normal: Simulator:     listen: 
+2019-03-16T08:49:39.595Z - normal: Simulator:     debugger: none
+2019-03-16T08:49:39.596Z - normal: Simulator:     add searching path:
+2019-03-16T08:49:39.596Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:49:39.596Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:49:39.596Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-03-16T08:49:39.596Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:49:39.597Z - normal: Simulator: Initializing V8, version: 6.0.286.52
+2019-03-16T08:49:39.894Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-03-16T08:49:39.895Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-03-16T08:49:39.895Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-03-16T08:49:39.948Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-03-16T08:49:39.950Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:49:39.951Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:49:39.951Z - normal: Simulator: LOAD Js FILE: main.js
+2019-03-16T08:49:39.952Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:49:40.401Z - normal: Simulator: iShow!
+2019-03-16T08:49:40.506Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-03-16T08:49:40.524Z - normal: Simulator: JS: Cocos Creator v2.1.0
+2019-03-16T08:49:43.691Z - normal: Simulator: JS: LoadScene 2b520fee-3b01-44e2-83a6-4e90fb67dd67: 38.465000000000146ms
+2019-03-16T08:49:44.216Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:44.724Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:45.235Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:45.737Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:46.105Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7fc4feda0e60) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:49:46.239Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:46.751Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:47.252Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:47.752Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:47.897Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7fc50411c760) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:49:48.133Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7fc50411c760) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:49:48.252Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:48.299Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7fc504141760) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:49:48.482Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7fc4feca3620) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:49:48.633Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyType is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:83
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7fc50411c760) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:49:48.753Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:49.253Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:49.757Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:49:49.981Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-03-16T08:49:49.982Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:49:50.027Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:49:50.027Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:49:50.067Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:49:50.067Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-03-16T08:49:50.067Z - normal: Simulator: Destroy WebGLBuffer (11) by GC
+2019-03-16T08:49:50.067Z - normal: Simulator: Destroy WebGLTexture (43) by GC
+2019-03-16T08:49:50.067Z - normal: Simulator: Destroy WebGLBuffer (12) by GC
+2019-03-16T08:49:50.068Z - normal: Simulator: Destroy WebGLTexture (42) by GC
+2019-03-16T08:49:50.068Z - normal: Simulator: Destroy WebGLBuffer (10) by GC
+2019-03-16T08:49:50.068Z - normal: Simulator: Destroy WebGLBuffer (9) by GC
+2019-03-16T08:49:50.069Z - normal: Simulator: Destroy WebGLTexture (41) by GC
+2019-03-16T08:49:50.070Z - normal: Simulator: Destroy WebGLTexture (40) by GC
+2019-03-16T08:49:50.070Z - normal: Simulator: Destroy WebGLTexture (39) by GC
+2019-03-16T08:49:50.070Z - normal: Simulator: Destroy WebGLTexture (38) by GC
+2019-03-16T08:49:50.071Z - normal: Simulator: Destroy WebGLTexture (36) by GC
+2019-03-16T08:49:50.071Z - normal: Simulator: Destroy WebGLTexture (34) by GC
+2019-03-16T08:49:50.071Z - normal: Simulator: Destroy WebGLTexture (33) by GC
+2019-03-16T08:49:50.072Z - normal: Simulator: Destroy WebGLTexture (31) by GC
+2019-03-16T08:49:50.072Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-03-16T08:49:50.072Z - normal: Simulator: Destroy WebGLTexture (30) by GC
+2019-03-16T08:49:50.072Z - normal: Simulator: Destroy WebGLTexture (28) by GC
+2019-03-16T08:49:50.072Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLTexture (26) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLTexture (24) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLTexture (27) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLProgram (9) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLTexture (22) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLTexture (35) by GC
+2019-03-16T08:49:50.073Z - normal: Simulator: Destroy WebGLTexture (21) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (18) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (17) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (25) by GC
+2019-03-16T08:49:50.074Z - normal: Simulator: Destroy WebGLTexture (37) by GC
+2019-03-16T08:49:50.075Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-03-16T08:49:50.075Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-03-16T08:49:50.075Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-03-16T08:49:50.075Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-03-16T08:49:50.075Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-03-16T08:49:50.075Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-03-16T08:49:50.075Z - normal: Simulator: Destroy WebGLTexture (20) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLTexture (19) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLTexture (32) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-03-16T08:49:50.076Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-03-16T08:49:50.077Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-03-16T08:49:50.077Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-03-16T08:49:50.077Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-03-16T08:49:50.077Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-03-16T08:49:50.077Z - normal: Simulator: Destroy WebGLTexture (23) by GC
+2019-03-16T08:49:50.077Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-03-16T08:49:50.078Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-03-16T08:49:50.078Z - normal: Simulator: Destroy WebGLTexture (29) by GC
+2019-03-16T08:49:50.078Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-03-16T08:49:50.079Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:49:50.109Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:49:50.115Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-03-16T08:59:12.413Z - normal: Simulator: WORKAREA WIDTH 1396.00, HEIGHT 855.00
+2019-03-16T08:59:12.415Z - normal: Simulator: FRAME SCALE = 1.00
+2019-03-16T08:59:12.480Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-03-16T08:59:12.499Z - normal: Simulator: 
+2019-03-16T08:59:12.499Z - normal: Simulator: {
+2019-03-16T08:59:12.500Z - normal: Simulator: 	build_type: DEBUG
+2019-03-16T08:59:12.500Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-03-16T08:59:12.500Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-03-16T08:59:12.500Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-03-16T08:59:12.500Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-03-16T08:59:12.500Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-03-16T08:59:12.501Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-03-16T08:59:12.501Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-03-16T08:59:12.501Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-03-16T08:59:12.501Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-03-16T08:59:12.501Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-03-16T08:59:12.502Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-03-16T08:59:12.502Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-03-16T08:59:12.502Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-03-16T08:59:12.502Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-03-16T08:59:12.502Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.4.7
+2019-03-16T08:59:12.502Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-03-16T08:59:12.503Z - normal: Simulator: 	compiled_with_profiler: false
+2019-03-16T08:59:12.503Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-03-16T08:59:12.503Z - normal: Simulator: }
+2019-03-16T08:59:12.540Z - normal: Simulator: Project Config:
+2019-03-16T08:59:12.541Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-03-16T08:59:12.541Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-03-16T08:59:12.541Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-03-16T08:59:12.542Z - normal: Simulator:     frame size: 960 x 640
+2019-03-16T08:59:12.542Z - normal: Simulator:     frame scale: 1.00
+2019-03-16T08:59:12.542Z - normal: Simulator:     show console: NO
+2019-03-16T08:59:12.542Z - normal: Simulator:     write debug log: NO ()
+2019-03-16T08:59:12.543Z - normal: Simulator:     listen: 
+2019-03-16T08:59:12.543Z - normal: Simulator:     debugger: none
+2019-03-16T08:59:12.543Z - normal: Simulator:     add searching path:
+2019-03-16T08:59:12.543Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:59:12.544Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:59:12.544Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-03-16T08:59:12.545Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:59:12.545Z - normal: Simulator: Initializing V8, version: 6.0.286.52
+2019-03-16T08:59:12.824Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-03-16T08:59:12.825Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-03-16T08:59:12.825Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-03-16T08:59:12.864Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-03-16T08:59:12.864Z - normal: Simulator: resetDesignResolution request
+2019-03-16T08:59:12.865Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:59:12.865Z - normal: Simulator: LOAD Js FILE: main.js
+2019-03-16T08:59:12.865Z - normal: Simulator: ------------------------------------------------
+2019-03-16T08:59:13.235Z - normal: Simulator: iShow!
+2019-03-16T08:59:13.338Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-03-16T08:59:13.348Z - normal: Simulator: JS: Cocos Creator v2.1.0
+2019-03-16T08:59:16.504Z - normal: Simulator: JS: LoadScene 2b520fee-3b01-44e2-83a6-4e90fb67dd67: 36.33100000000013ms
+2019-03-16T08:59:17.047Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:17.553Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:18.072Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:18.585Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:19.086Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:19.151Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyBoat is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:86
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7f86b85a0ae0) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:59:19.536Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:19.586Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:20.086Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:20.587Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:21.093Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:21.596Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:22.105Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:22.608Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:22.726Z - error: Simulator: ERROR: Uncaught ReferenceError: intensifyBoat is not defined, location: assets/scripts/intensityUIMgr.js:0:0
+STACK:
+[0]onClickLevelUpButton@assets/scripts/intensityUIMgr.js:86
+[1]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[2]emit@src/cocos2d-jsb.js:9460
+[3]_onTouchEnded@src/cocos2d-jsb.js:14058
+[4]190.CallbacksInvoker.invoke@src/cocos2d-jsb.js:29910
+[5]_doDispatchEvent@src/cocos2d-jsb.js:8833
+[6]dispatchEvent@src/cocos2d-jsb.js:9463
+[7]_touchEndHandler@src/cocos2d-jsb.js:8725
+[8]_onTouchEventCallback@src/cocos2d-jsb.js:20735
+[9]_dispatchEventToListeners@src/cocos2d-jsb.js:20819
+[10]_dispatchTouchEvent@src/cocos2d-jsb.js:20768
+[11]dispatchEvent@src/cocos2d-jsb.js:21041
+[12]handleTouchesEnd@src/cocos2d-jsb.js:27966
+[13]anonymous@src/cocos2d-jsb.js:28139
+[14]anonymous@src/cocos2d-jsb.js:28159
+[15]dispatchEvent@jsb-adapter/jsb-builtin.js:2805
+[16]anonymous@jsb-adapter/jsb-builtin.js:2876
+[ERROR] (/Users/nantas/fireball-x/cocos2d-x-lite_21/cocos/scripting/js-bindings/jswrapper/v8/Object.cpp, 521): Invoking function (0x7f86ba80fe40) failed!
+    at HTMLElement.print-simulator-log (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/messages/scene.js:1:1653)
+    at Object.e._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:1941)
+    at EventEmitter.o.on.s (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:2917)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2019-03-16T08:59:23.111Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:23.613Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:24.125Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:24.637Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T08:59:25.164Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-03-16T08:59:25.164Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:59:25.209Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:59:25.209Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:59:25.249Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T08:59:25.250Z - normal: Simulator: Destroy WebGLProgram (9) by GC
+2019-03-16T08:59:25.250Z - normal: Simulator: Destroy WebGLTexture (43) by GC
+2019-03-16T08:59:25.250Z - normal: Simulator: Destroy WebGLBuffer (9) by GC
+2019-03-16T08:59:25.250Z - normal: Simulator: Destroy WebGLTexture (40) by GC
+2019-03-16T08:59:25.250Z - normal: Simulator: Destroy WebGLTexture (38) by GC
+2019-03-16T08:59:25.251Z - normal: Simulator: Destroy WebGLTexture (37) by GC
+2019-03-16T08:59:25.251Z - normal: Simulator: Destroy WebGLTexture (33) by GC
+2019-03-16T08:59:25.251Z - normal: Simulator: Destroy WebGLTexture (35) by GC
+2019-03-16T08:59:25.251Z - normal: Simulator: Destroy WebGLTexture (32) by GC
+2019-03-16T08:59:25.251Z - normal: Simulator: Destroy WebGLTexture (31) by GC
+2019-03-16T08:59:25.251Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-03-16T08:59:25.251Z - normal: Simulator: Destroy WebGLTexture (28) by GC
+2019-03-16T08:59:25.252Z - normal: Simulator: Destroy WebGLTexture (23) by GC
+2019-03-16T08:59:25.252Z - normal: Simulator: Destroy WebGLTexture (27) by GC
+2019-03-16T08:59:25.253Z - normal: Simulator: Destroy WebGLBuffer (12) by GC
+2019-03-16T08:59:25.253Z - normal: Simulator: Destroy WebGLTexture (26) by GC
+2019-03-16T08:59:25.253Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-03-16T08:59:25.253Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-03-16T08:59:25.253Z - normal: Simulator: Destroy WebGLTexture (20) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLTexture (25) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLBuffer (11) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLTexture (22) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLTexture (21) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLTexture (29) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLTexture (19) by GC
+2019-03-16T08:59:25.254Z - normal: Simulator: Destroy WebGLTexture (39) by GC
+2019-03-16T08:59:25.255Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-03-16T08:59:25.255Z - normal: Simulator: Destroy WebGLTexture (18) by GC
+2019-03-16T08:59:25.255Z - normal: Simulator: Destroy WebGLTexture (36) by GC
+2019-03-16T08:59:25.255Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2019-03-16T08:59:25.255Z - normal: Simulator: Destroy WebGLTexture (17) by GC
+2019-03-16T08:59:25.255Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-03-16T08:59:25.255Z - normal: Simulator: Destroy WebGLTexture (34) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLTexture (30) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLBuffer (10) by GC
+2019-03-16T08:59:25.256Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-03-16T08:59:25.257Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-03-16T08:59:25.257Z - normal: Simulator: Destroy WebGLTexture (41) by GC
+2019-03-16T08:59:25.257Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-03-16T08:59:25.257Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-03-16T08:59:25.257Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-03-16T08:59:25.257Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-03-16T08:59:25.258Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-03-16T08:59:25.258Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-03-16T08:59:25.258Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-03-16T08:59:25.258Z - normal: Simulator: Destroy WebGLTexture (42) by GC
+2019-03-16T08:59:25.258Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-03-16T08:59:25.259Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-03-16T08:59:25.260Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-03-16T08:59:25.260Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-03-16T08:59:25.260Z - normal: Simulator: Destroy WebGLTexture (24) by GC
+2019-03-16T08:59:25.260Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-03-16T08:59:25.260Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:59:25.291Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-03-16T08:59:25.297Z - normal: Simulator: ScriptEngine::cleanup end ...
+2019-03-16T09:00:00.367Z - normal: Simulator: WORKAREA WIDTH 1396.00, HEIGHT 855.00
+2019-03-16T09:00:00.368Z - normal: Simulator: FRAME SCALE = 1.00
+2019-03-16T09:00:00.438Z - normal: Simulator: GLFWError #65544 Happen, Cocoa: Failed to retrieve display name
+2019-03-16T09:00:00.456Z - normal: Simulator: 
+2019-03-16T09:00:00.456Z - normal: Simulator: {
+2019-03-16T09:00:00.456Z - normal: Simulator: 	build_type: DEBUG
+2019-03-16T09:00:00.456Z - normal: Simulator: 	gl.vendor: Intel Inc.
+2019-03-16T09:00:00.456Z - normal: Simulator: 	gl.supports_PVRTC: false
+2019-03-16T09:00:00.457Z - normal: Simulator: 	gl.renderer: Intel Iris Pro OpenGL Engine
+2019-03-16T09:00:00.457Z - normal: Simulator: 	gl.supports_ATITC: false
+2019-03-16T09:00:00.457Z - normal: Simulator: 	gl.supports_discard_framebuffer: false
+2019-03-16T09:00:00.457Z - normal: Simulator: 	gl.supports_NPOT: true
+2019-03-16T09:00:00.457Z - normal: Simulator: 	gl.max_texture_units: 16
+2019-03-16T09:00:00.457Z - normal: Simulator: 	gl.supports_ETC1: false
+2019-03-16T09:00:00.457Z - normal: Simulator: 	gl.max_texture_size: 16384
+2019-03-16T09:00:00.458Z - normal: Simulator: 	gl.supports_BGRA8888: false
+2019-03-16T09:00:00.458Z - normal: Simulator: 	gl.supports_vertex_array_object: true
+2019-03-16T09:00:00.458Z - normal: Simulator: 	gl.supports_OES_map_buffer: false
+2019-03-16T09:00:00.458Z - normal: Simulator: 	compiled_with_gl_state_cache: true
+2019-03-16T09:00:00.458Z - normal: Simulator: 	gl.supports_OES_packed_depth_stencil: false
+2019-03-16T09:00:00.458Z - normal: Simulator: 	gl.version: 2.1 INTEL-12.4.7
+2019-03-16T09:00:00.458Z - normal: Simulator: 	gl.supports_S3TC: true
+2019-03-16T09:00:00.458Z - normal: Simulator: 	compiled_with_profiler: false
+2019-03-16T09:00:00.459Z - normal: Simulator: 	gl.supports_OES_depth24: false
+2019-03-16T09:00:00.459Z - normal: Simulator: }
+2019-03-16T09:00:00.491Z - normal: Simulator: Project Config:
+2019-03-16T09:00:00.491Z - normal: Simulator:     project dir: /Applications/CocosCreator.app/Contents/Resources/cocos2d-x/simulator/mac/Simulator.app/Contents/Resources/
+2019-03-16T09:00:00.491Z - normal: Simulator:     writable path: $(PROJDIR)/
+2019-03-16T09:00:00.491Z - normal: Simulator:     script file: $(PROJDIR)/main.js
+2019-03-16T09:00:00.492Z - normal: Simulator:     frame size: 960 x 640
+2019-03-16T09:00:00.492Z - normal: Simulator:     frame scale: 1.00
+2019-03-16T09:00:00.492Z - normal: Simulator:     show console: NO
+2019-03-16T09:00:00.492Z - normal: Simulator:     write debug log: NO ()
+2019-03-16T09:00:00.492Z - normal: Simulator:     listen: 
+2019-03-16T09:00:00.493Z - normal: Simulator:     debugger: none
+2019-03-16T09:00:00.493Z - normal: Simulator:     add searching path:
+2019-03-16T09:00:00.493Z - normal: Simulator: resetDesignResolution request
+2019-03-16T09:00:00.493Z - normal: Simulator: ------------------------------------------------
+2019-03-16T09:00:00.493Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2019-03-16T09:00:00.493Z - normal: Simulator: ------------------------------------------------
+2019-03-16T09:00:00.493Z - normal: Simulator: Initializing V8, version: 6.0.286.52
+2019-03-16T09:00:00.758Z - normal: Simulator: libuv version: 1.23.1-dev
+2019-03-16T09:00:00.758Z - normal: Simulator: Debugger listening..., visit [ chrome-devtools://devtools/bundled/inspector.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2019-03-16T09:00:00.759Z - normal: Simulator: For help see https://nodejs.org/en/docs/inspector
+2019-03-16T09:00:00.791Z - normal: Simulator: JS: Enable batch GL commands optimization!
+2019-03-16T09:00:00.792Z - normal: Simulator: resetDesignResolution request
+2019-03-16T09:00:00.792Z - normal: Simulator: ------------------------------------------------
+2019-03-16T09:00:00.792Z - normal: Simulator: LOAD Js FILE: main.js
+2019-03-16T09:00:00.793Z - normal: Simulator: ------------------------------------------------
+2019-03-16T09:00:01.172Z - normal: Simulator: iShow!
+2019-03-16T09:00:01.275Z - normal: Simulator: glGetIntegerv: pname: 0x8b4c
+2019-03-16T09:00:01.289Z - normal: Simulator: JS: Cocos Creator v2.1.0
+2019-03-16T09:00:04.446Z - normal: Simulator: JS: LoadScene 2b520fee-3b01-44e2-83a6-4e90fb67dd67: 36.791999999999916ms
+2019-03-16T09:00:04.989Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:05.498Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:06.011Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:06.517Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:07.027Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:07.529Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:08.031Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:08.534Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:09.037Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:09.546Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:10.048Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:10.549Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:11.052Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:11.553Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:12.055Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:12.558Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:13.058Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:13.561Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:14.066Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:14.577Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:15.083Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:15.592Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:16.097Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:16.503Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:16.602Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:17.110Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:17.614Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:18.122Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:18.628Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:19.132Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:19.505Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:19.638Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:20.143Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:20.654Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:21.157Z - normal: Simulator: JS: [WARN]: 'cc.Node.rotation' is deprecated, please use 'cc.Node.angle' instead.
+2019-03-16T09:00:21.715Z - normal: Simulator: ScriptEngine::cleanup begin ...
+2019-03-16T09:00:21.715Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T09:00:21.761Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T09:00:21.761Z - normal: Simulator: GC begin ..., (js->native map) size: 70, all objects: 109
+2019-03-16T09:00:21.801Z - normal: Simulator: GC end ..., (js->native map) size: 70, all objects: 109
+2019-03-16T09:00:21.801Z - normal: Simulator: Destroy WebGLProgram (6) by GC
+2019-03-16T09:00:21.802Z - normal: Simulator: Destroy WebGLBuffer (12) by GC
+2019-03-16T09:00:21.802Z - normal: Simulator: Destroy WebGLBuffer (11) by GC
+2019-03-16T09:00:21.802Z - normal: Simulator: Destroy WebGLBuffer (10) by GC
+2019-03-16T09:00:21.802Z - normal: Simulator: Destroy WebGLTexture (41) by GC
+2019-03-16T09:00:21.802Z - normal: Simulator: Destroy WebGLTexture (40) by GC
+2019-03-16T09:00:21.803Z - normal: Simulator: Destroy WebGLTexture (39) by GC
+2019-03-16T09:00:21.803Z - normal: Simulator: Destroy WebGLTexture (38) by GC
+2019-03-16T09:00:21.803Z - normal: Simulator: Destroy WebGLTexture (37) by GC
+2019-03-16T09:00:21.803Z - normal: Simulator: Destroy WebGLTexture (36) by GC
+2019-03-16T09:00:21.803Z - normal: Simulator: Destroy WebGLTexture (35) by GC
+2019-03-16T09:00:21.804Z - normal: Simulator: Destroy WebGLTexture (34) by GC
+2019-03-16T09:00:21.804Z - normal: Simulator: Destroy WebGLTexture (31) by GC
+2019-03-16T09:00:21.804Z - normal: Simulator: Destroy WebGLTexture (30) by GC
+2019-03-16T09:00:21.804Z - normal: Simulator: Destroy WebGLFramebuffer (1) by GC
+2019-03-16T09:00:21.804Z - normal: Simulator: Destroy WebGLProgram (9) by GC
+2019-03-16T09:00:21.805Z - normal: Simulator: Destroy WebGLTexture (22) by GC
+2019-03-16T09:00:21.809Z - normal: Simulator: Destroy WebGLTexture (26) by GC
+2019-03-16T09:00:21.810Z - normal: Simulator: Destroy WebGLTexture (25) by GC
+2019-03-16T09:00:21.810Z - normal: Simulator: Destroy WebGLTexture (11) by GC
+2019-03-16T09:00:21.810Z - normal: Simulator: Destroy WebGLTexture (20) by GC
+2019-03-16T09:00:21.810Z - normal: Simulator: Destroy WebGLTexture (18) by GC
+2019-03-16T09:00:21.810Z - normal: Simulator: Destroy WebGLTexture (17) by GC
+2019-03-16T09:00:21.811Z - normal: Simulator: Destroy WebGLBuffer (9) by GC
+2019-03-16T09:00:21.812Z - normal: Simulator: Destroy WebGLTexture (15) by GC
+2019-03-16T09:00:21.812Z - normal: Simulator: Destroy WebGLTexture (42) by GC
+2019-03-16T09:00:21.812Z - normal: Simulator: Destroy WebGLTexture (16) by GC
+2019-03-16T09:00:21.812Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
+2019-03-16T09:00:21.812Z - normal: Simulator: Destroy WebGLTexture (14) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLBuffer (4) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLTexture (28) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLTexture (5) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLTexture (13) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLTexture (10) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLTexture (33) by GC
+2019-03-16T09:00:21.813Z - normal: Simulator: Destroy WebGLTexture (9) by GC
+2019-03-16T09:00:21.814Z - normal: Simulator: Destroy WebGLTexture (8) by GC
+2019-03-16T09:00:21.814Z - normal: Simulator: Destroy WebGLTexture (24) by GC
+2019-03-16T09:00:21.815Z - normal: Simulator: Destroy WebGLTexture (21) by GC
+2019-03-16T09:00:21.815Z - normal: Simulator: Destroy WebGLTexture (7) by GC
+2019-03-16T09:00:21.815Z - normal: Simulator: Destroy WebGLTexture (29) by GC
+2019-03-16T09:00:21.815Z - normal: Simulator: Destroy WebGLTexture (4) by GC
+2019-03-16T09:00:21.815Z - normal: Simulator: Destroy WebGLProgram (3) by GC
+2019-03-16T09:00:21.815Z - normal: Simulator: Destroy WebGLTexture (23) by GC
+2019-03-16T09:00:21.816Z - normal: Simulator: Destroy WebGLBuffer (5) by GC
+2019-03-16T09:00:21.817Z - normal: Simulator: Destroy WebGLTexture (3) by GC
+2019-03-16T09:00:21.817Z - normal: Simulator: Destroy WebGLTexture (2) by GC
+2019-03-16T09:00:21.818Z - normal: Simulator: Destroy WebGLTexture (6) by GC
+2019-03-16T09:00:21.818Z - normal: Simulator: Destroy WebGLTexture (32) by GC
+2019-03-16T09:00:21.818Z - normal: Simulator: Destroy WebGLTexture (12) by GC
+2019-03-16T09:00:21.818Z - normal: Simulator: Destroy WebGLBuffer (6) by GC
+2019-03-16T09:00:21.818Z - normal: Simulator: Destroy WebGLBuffer (3) by GC
+2019-03-16T09:00:21.818Z - normal: Simulator: Destroy WebGLTexture (1) by GC
+2019-03-16T09:00:21.819Z - normal: Simulator: Destroy WebGLBuffer (8) by GC
+2019-03-16T09:00:21.819Z - normal: Simulator: Destroy WebGLTexture (27) by GC
+2019-03-16T09:00:21.819Z - normal: Simulator: Destroy WebGLTexture (43) by GC
+2019-03-16T09:00:21.819Z - normal: Simulator: Destroy WebGLTexture (19) by GC
+2019-03-16T09:00:21.819Z - normal: Simulator: Destroy WebGLBuffer (7) by GC
+2019-03-16T09:00:21.820Z - normal: Simulator: GC begin ..., (js->native map) size: 0, all objects: 0
+2019-03-16T09:00:21.845Z - normal: Simulator: GC end ..., (js->native map) size: 0, all objects: 0
+2019-03-16T09:00:21.849Z - normal: Simulator: ScriptEngine::cleanup end ...
